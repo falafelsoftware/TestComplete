@@ -107,6 +107,9 @@
 			<Node name="{e1e80a3e-1011-4f74-982f-6d811f1017a8}">
 				<Prp name="relpath" type="S" value="..\test items error settings\TestItemsErrorSettings.mds.tcLS"/>
 			</Node>
+			<Node name="{edadde82-a8f0-4140-a0a7-475873a0ecf5}">
+				<Prp name="relpath" type="S" value="..\wizard object wrapper\WizardWrapperJS.mds.tcLS"/>
+			</Node>
 			<Node name="{f1db5d0b-e794-4bd2-ab3a-0997613e7d61}">
 				<Prp name="relpath" type="S" value="..\ping and write test log\PingAndWriteTextLog.mds.tcLS"/>
 			</Node>

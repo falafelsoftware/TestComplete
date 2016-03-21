@@ -293,6 +293,15 @@
 				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
 				<Prp name="typename" type="S" value="Project"/>
 			</Node>
+			<Node name="wizardwrapperjs">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\wizard object wrapper\WizardWrapperJS.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{EDADDE82-A8F0-4140-A0A7-475873A0ECF5}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
 		</Node>
 		<Node name="folders"/>
 		<Node name="scc">
@@ -517,6 +526,13 @@
 					<Prp name="description" type="S" value=""/>
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{1D6579BD-FDE9-49CF-B031-CF8F1A3A808D}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0030">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{EDADDE82-A8F0-4140-A0A7-475873A0ECF5}"/>
 					<Prp name="stoponerror" type="B" value="-1"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>

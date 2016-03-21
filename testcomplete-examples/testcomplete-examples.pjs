@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{7CBF4554-0040-4E92-9497-48EAC883E1EC}"/>
+		</Node>
+		<Node name="child list"/>
+		<Node name="folders"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{C900492B-D218-429C-9AA0-264B7D78CA88}"/>
+			<Prp name="name" type="S" value="Git Plugin"/>
+		</Node>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{028F6C64-EBAF-46EA-9ECE-696F604921CE}"/>
+			<Prp name="settingsversion" type="S" value="11.30"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list"/>
+			<Prp name="key" type="S" value="{2EA6388C-9466-4551-9884-A9982D01593B}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{DD4396A4-A2D7-4236-89CA-400E7942772A}"/>
+		</Node>
+		<Prp name="key" type="S" value="{B3B6A8B8-70FB-4614-A6C3-9D101557CDE9}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

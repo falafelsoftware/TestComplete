@@ -33,7 +33,24 @@
 				</Node>
 			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
-				<Node name="workspace"/>
+				<Node name="workspace">
+					<Node name="0">
+						<Node name="editor">
+							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
+								<Prp name="key" type="S" value="{AF12B3F6-05FA-41F9-8D27-B967FAF3E90B}"/>
+							</Node>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}">
+								<Prp name="key" type="S" value="{DC6A08B7-E45B-432B-9362-A78ADBBE8929}"/>
+							</Node>
+							<Prp name="editor" type="S" value="{6953FA99-92FE-461F-A473-4602785232CB}"/>
+							<Prp name="focused" type="S" value="{DC6A08B7-E45B-432B-9362-A78ADBBE8929}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{526FCE5A-A10C-4AE9-A382-4F5EC0933BFC}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696E00000001000000CE0100007801730C74F177F6E662800231201DC8C2C0708C0926828F6E6584C8DEF17EF6DEBDF5A3F3E2CEEB574ADFC87232FA0025988172594EEEE75AE3989C37661B2FBF3ED9C16DD5EFFFFFEB80E240EABF1E48012A005A8C1F00B581C121A0F927804AD1F9F875835CBB16AA64E6AFE0CC7F93E4DD9614BB315504199D5E0B74D22CA0DC37A0915AC82EE3010ABA32E43224326432E4300431A432143394025925409A8181C62E863A96680A0008E757AD"/>
+					<Prp name="editorscount" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
 				<Prp name="history" type="S" value=""/>

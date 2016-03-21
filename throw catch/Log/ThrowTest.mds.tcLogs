@@ -20,62 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.4591657523"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{EAE6A7A0-228C-4097-A1E5-80C46BDE15A7}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_01 AM_11_921\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.459506007"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{64B478CB-D730-47E4-A6F7-D61118240AB3}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_01 AM_41_319\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.4599200463"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{38AD56A4-9DAF-4C4E-9468-617314C5E386}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_02 AM_17_92\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.4636654514"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9F2C7750-E97A-4D5F-AE14-CBDC27E1D5E3}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_07 AM_40_695\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.4638062037"/>
-				<Prp name="description" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="key" type="S" value="{14309C3E-2471-40D0-9D98-6E857DD7A303}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_07 AM_52_856\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0005">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42313.4641044676"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C2370301-5E3E-4E7C-BB5D-154DFFFA494B}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="11_5_2015_11_08 AM_18_626\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

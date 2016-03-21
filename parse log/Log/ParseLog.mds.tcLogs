@@ -20,26 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42419.6449326505"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FA364E5C-0863-4C4B-A508-9377C33C4801}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [GenerateLog\test]"/>
-				<Prp name="relpath" type="S" value="2_19_2016_3_28 PM_42_180\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42419.6450352894"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9A4F2376-A5DF-4C0A-87D2-C534CA23A814}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [ParseLog\ExportLog]"/>
-				<Prp name="relpath" type="S" value="2_19_2016_3_28 PM_51_48\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

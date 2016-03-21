@@ -26,9 +26,7 @@
 			<Prp name="node name" type="S" value="TestedApps"/>
 		</Node>
 		<Node name="data"/>
-		<Node name="folders">
-			<Node name="folders"/>
-		</Node>
+		<Node name="folders"/>
 		<Node name="test data"/>
 		<Prp name="key" type="S" value="{A40D8A01-753F-4456-8328-7780B2890858}"/>
 		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>

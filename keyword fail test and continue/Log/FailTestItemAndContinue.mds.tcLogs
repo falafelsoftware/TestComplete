@@ -20,44 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42248.6386394329"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C1552D34-8FCF-4049-A8EC-3AAFAF553D6D}"/>
-				<Prp name="nameofroot" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="relpath" type="S" value="9_1_2015_3_19 PM_38_446\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42248.6392655324"/>
-				<Prp name="description" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="key" type="S" value="{D8BFBBE2-F0C1-4380-BCFC-87F3D54F7E5B}"/>
-				<Prp name="nameofroot" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="relpath" type="S" value="9_1_2015_3_20 PM_32_541\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42248.6439815857"/>
-				<Prp name="description" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="key" type="S" value="{81E838ED-9997-4E80-B414-BD4DF7A5B3B0}"/>
-				<Prp name="nameofroot" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="relpath" type="S" value="9_1_2015_3_27 PM_20_8\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42248.64592625"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5FABE41B-6FB0-4C23-9525-D0B9C9A3A8F7}"/>
-				<Prp name="nameofroot" type="S" value="FailTestItemAndContinue"/>
-				<Prp name="relpath" type="S" value="9_1_2015_3_30 PM_08_27\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

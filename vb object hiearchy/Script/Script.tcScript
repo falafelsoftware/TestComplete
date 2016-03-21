@@ -20,22 +20,19 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list">
-			<Node name="item0000000000">
+			<Node name="walkobjecthierarchy">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="WalkObjectHierarchy.svb"/>
 				</Node>
-				<Prp name="index" type="I" value="0"/>
 				<Prp name="key" type="S" value="{B1A332C9-95C2-44EE-A977-338EF883D008}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
 		</Node>
-		<Node name="folders">
-			<Node name="folders"/>
-		</Node>
+		<Node name="folders"/>
 		<Node name="settings"/>
 		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
-		<Prp name="version" type="S" value="10.0"/>
+		<Prp name="version" type="S" value="11.0"/>
 	</Node>
 </Nodes>

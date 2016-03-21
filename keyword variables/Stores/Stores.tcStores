@@ -20,11 +20,9 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list"/>
-		<Node name="folders">
-			<Node name="folders"/>
-		</Node>
+		<Node name="folders"/>
 		<Node name="settings"/>
 		<Prp name="signature" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
-		<Prp name="version" type="S" value="10.0"/>
+		<Prp name="version" type="S" value="11.0"/>
 	</Node>
 </Nodes>

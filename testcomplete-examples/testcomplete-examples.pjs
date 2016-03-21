@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{7CBF4554-0040-4E92-9497-48EAC883E1EC}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="1_createpurchaseorders">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed add inventory\1_CreatePurchaseOrders.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{0B5AAD3B-3A2B-45F6-B6BC-E9D54AB1473C}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="2_usepurchaseorders">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed log inventory\2_UsePurchaseOrders.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{DF3D2A5F-436D-467B-B2C0-F80A8A67D01B}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="aq_utility_objects">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\aqfile_usage\Aq_utility_objects.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{D3902E2F-2E38-45F4-9281-6F9BCA84920B}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="ckobjectstores">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\object stores\CKObjectStores.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{A6DAE5C8-D625-4C35-9BEA-DB44AB85C180}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="emailresults">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\email results\EmailResults.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{526FCE5A-A10C-4AE9-A382-4F5EC0933BFC}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="emailtestresults">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\email test results\EmailTestResults.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{2D807E4E-BE81-4ECC-AB06-41D7461C1B83}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="eventstest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword events\EventsTest.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{F32CB5C5-3F5C-45C4-9CE4-BEC53EC74A92}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="failtestitemandcontinue">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword fail test and continue\FailTestItemAndContinue.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{21BC4FAE-95B2-4924-ABCD-191EC81B86BF}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="hideevents">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\hide events\HideEvents.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{49943C64-B8B6-4C50-8703-154998FFE507}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="interopwithscript">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword operations\InteropWithScript.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{ABA0E314-391F-477E-9020-EBC706377D2A}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="issuetrackingintegration">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\issue tracking\IssueTrackingIntegration.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{1B656622-43EB-450F-9617-2AD7312CF222}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="jscriptobjects">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\jscript objects\JScriptObjects.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{F730D5A7-99E6-40D2-B9BD-9CB0BB954BB3}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="keywordassignvariables">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword assign variables\KeywordAssignVariables.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{AB24A569-6685-4F31-8F67-35854AA3FDED}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="keywordextension">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword extension\KeywordExtension.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{F55587F4-1DEF-4FD7-9CB1-BEB1969A5EF1}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="keywordobjectsoperations">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword objects\KeywordObjectsOperations.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C3A116F-3503-4DEC-8B3E-99D501DADBB7}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="launchandcloseie">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\launch and close ie\LaunchAndCloseIE.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{3802A9C4-11AC-48CE-A1B9-997C28AB9E56}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="masterproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed - master\MasterProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{0FED7348-EFCE-4348-A354-73B8A2F55123}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="masterscriptedproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed add tasks programmatically\MasterScriptedProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{9BB633B8-A5BA-4D60-ADA2-82DC120CA519}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="parselog">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\parse log\ParseLog.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{2C052AF8-BCC8-4ADE-A1A3-C2AAAB227B57}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="pingandwritetextlog">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\ping and write test log\PingAndWriteTextLog.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{F1DB5D0B-E794-4BD2-AB3A-0997613E7D61}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="runfromcommand">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\run tc from command line\RunFromCommand.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{AFFA2275-1B44-40D4-BA6D-BB161E4D319D}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="slaveproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed  - slave\SlaveProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{9FB6D850-BCB0-4D4F-B97D-9CC586154DA3}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="syncpoints">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\distributed using sync points\SyncPoints.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{A37834F1-9417-4A7A-9825-400B518A70A8}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="testitemserrorsettings">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\test items error settings\TestItemsErrorSettings.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{E1E80A3E-1011-4F74-982F-6D811F1017A8}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="testkeywordextension">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\test keyword extension\TestKeywordExtension.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{51949EA3-A88A-4B6B-AC32-73388C5308FA}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="throwtest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\throw catch\ThrowTest.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{55D316A2-9CCF-48DC-A770-B8A664475D76}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="timeouts">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\timeouts using performance counter\Timeouts.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{3B903647-955E-4A4D-B860-7AA1ECDB3A43}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="typescriptpoc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\typescript poc\TypescriptPoc.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{BE65F852-210B-447E-A9A0-441952E068B2}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="variablestesting">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\keyword variables\VariablesTesting.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{28B14177-F132-4327-BE39-7B70B6E35C92}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="vbproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\vb object hiearchy\VBProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{1D6579BD-FDE9-49CF-B031-CF8F1A3A808D}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="web">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="..\native web object\Web.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{33ADDC56-4392-441B-9DD3-FF4701AB719C}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{C900492B-D218-429C-9AA0-264B7D78CA88}"/>
+			<Prp name="name" type="S" value="Git Plugin"/>
+		</Node>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{028F6C64-EBAF-46EA-9ECE-696F604921CE}"/>
+			<Prp name="settingsversion" type="S" value="11.30"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item idx=0000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{D3902E2F-2E38-45F4-9281-6F9BCA84920B}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{9FB6D850-BCB0-4D4F-B97D-9CC586154DA3}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0002">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{0FED7348-EFCE-4348-A354-73B8A2F55123}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0003">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{0B5AAD3B-3A2B-45F6-B6BC-E9D54AB1473C}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0004">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{9BB633B8-A5BA-4D60-ADA2-82DC120CA519}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0005">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{DF3D2A5F-436D-467B-B2C0-F80A8A67D01B}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0006">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{A37834F1-9417-4A7A-9825-400B518A70A8}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0007">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{526FCE5A-A10C-4AE9-A382-4F5EC0933BFC}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0008">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{2D807E4E-BE81-4ECC-AB06-41D7461C1B83}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0009">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{49943C64-B8B6-4C50-8703-154998FFE507}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0010">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{1B656622-43EB-450F-9617-2AD7312CF222}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0011">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{F730D5A7-99E6-40D2-B9BD-9CB0BB954BB3}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0012">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{AB24A569-6685-4F31-8F67-35854AA3FDED}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0013">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{F32CB5C5-3F5C-45C4-9CE4-BEC53EC74A92}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0014">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{F55587F4-1DEF-4FD7-9CB1-BEB1969A5EF1}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0015">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{21BC4FAE-95B2-4924-ABCD-191EC81B86BF}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0016">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{1C3A116F-3503-4DEC-8B3E-99D501DADBB7}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0017">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{ABA0E314-391F-477E-9020-EBC706377D2A}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0018">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{28B14177-F132-4327-BE39-7B70B6E35C92}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0019">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{3802A9C4-11AC-48CE-A1B9-997C28AB9E56}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0020">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{33ADDC56-4392-441B-9DD3-FF4701AB719C}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0021">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{A6DAE5C8-D625-4C35-9BEA-DB44AB85C180}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0022">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{2C052AF8-BCC8-4ADE-A1A3-C2AAAB227B57}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0023">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{F1DB5D0B-E794-4BD2-AB3A-0997613E7D61}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0024">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{AFFA2275-1B44-40D4-BA6D-BB161E4D319D}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0025">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{E1E80A3E-1011-4F74-982F-6D811F1017A8}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0026">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{51949EA3-A88A-4B6B-AC32-73388C5308FA}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0027">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{55D316A2-9CCF-48DC-A770-B8A664475D76}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0028">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{3B903647-955E-4A4D-B860-7AA1ECDB3A43}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0029">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{BE65F852-210B-447E-A9A0-441952E068B2}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0030">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{1D6579BD-FDE9-49CF-B031-CF8F1A3A808D}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{2EA6388C-9466-4551-9884-A9982D01593B}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{DD4396A4-A2D7-4236-89CA-400E7942772A}"/>
+		</Node>
+		<Prp name="key" type="S" value="{B3B6A8B8-70FB-4614-A6C3-9D101557CDE9}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

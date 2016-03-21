@@ -186,9 +186,7 @@
 			<Prp name="tlbhistory" type="S" value="&quot;TestComplete general events&quot;"/>
 		</Node>
 		<Node name="data"/>
-		<Node name="folders">
-			<Node name="folders"/>
-		</Node>
+		<Node name="folders"/>
 		<Node name="test data"/>
 		<Prp name="key" type="S" value="{3A476C6B-54D8-40D8-AE40-E0FF5632A3C9}"/>
 		<Prp name="signature" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>

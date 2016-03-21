@@ -23,11 +23,10 @@
 			<Prp name="key" type="S" value="{742F3E89-1E0B-4A9F-8F8C-FB5F493583BC}"/>
 		</Node>
 		<Node name="child list">
-			<Node name="item0000000000">
+			<Node name="script">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
 				</Node>
-				<Prp name="index" type="I" value="0"/>
 				<Prp name="key" type="S" value="{174D7A1D-9353-4D8F-868F-3C19C805E0D6}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
@@ -38,26 +37,24 @@
 			<Prp name="language" type="S" value="{897793E3-73F3-4895-A956-3D41D3A24A45}"/>
 		</Node>
 		<Node name="folders">
-			<Node name="folders">
-				<Node name="folder0000000000">
-					<Node name="folders"/>
-					<Node name="references">
-						<Node name="ref0000000000">
-							<Prp name="index" type="I" value="0"/>
-							<Prp name="key" type="S" value="{174D7A1D-9353-4D8F-868F-3C19C805E0D6}"/>
-						</Node>
-					</Node>
-					<Prp name="caption" type="S" value="Advanced"/>
-					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
-					<Prp name="index" type="I" value="0"/>
-					<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
+			<Node name="advanced">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{174d7a1d-9353-4d8f-868f-3c19c805e0d6}" type="S" value=""/>
 				</Node>
+				<Prp name="caption" type="S" value="Advanced"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
 			</Node>
 		</Node>
 		<Node name="issue tracking">
 			<Prp name="key" type="S" value="{E220EA7E-6211-4507-930F-F057C0A71124}"/>
 		</Node>
-		<Node name="scc"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			<Prp name="name" type="S" value=""/>
+		</Node>
 		<Node name="settings">
 			<Node name="{0787aa13-4c49-418a-a688-b23be9f226f4}">
 				<Prp name="type" type="I" value="1"/>
@@ -274,6 +271,10 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{5b70169c-3929-4b5f-bc46-0fd984becf45}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
 			<Node name="{6ba39d6a-88c9-49b1-a310-a31f46136dfb}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
@@ -312,8 +313,10 @@
 				<Prp name="col7type" type="I" value="2"/>
 				<Prp name="col8enabled" type="B" value="-1"/>
 				<Prp name="col8type" type="I" value="2"/>
-				<Prp name="colcount" type="I" value="9"/>
-				<Prp name="colindex" type="I" value="8"/>
+				<Prp name="col9enabled" type="B" value="-1"/>
+				<Prp name="col9type" type="I" value="4"/>
+				<Prp name="colcount" type="I" value="10"/>
+				<Prp name="colindex" type="I" value="9"/>
 				<Prp name="rowcount" type="I" value="8"/>
 				<Prp name="rowindex" type="I" value="7"/>
 				<Prp name="type" type="I" value="6"/>
@@ -389,6 +392,14 @@
 				<Prp name="val8x5" type="I" value="320"/>
 				<Prp name="val8x6" type="I" value="640"/>
 				<Prp name="val8x7" type="I" value="1280"/>
+				<Prp name="val9x0" type="D" value="1"/>
+				<Prp name="val9x1" type="D" value="1"/>
+				<Prp name="val9x2" type="D" value="1"/>
+				<Prp name="val9x3" type="D" value="1"/>
+				<Prp name="val9x4" type="D" value="1"/>
+				<Prp name="val9x5" type="D" value="1"/>
+				<Prp name="val9x6" type="D" value="1"/>
+				<Prp name="val9x7" type="D" value="1"/>
 			</Node>
 			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
 				<Prp name="type" type="I" value="1"/>
@@ -1164,7 +1175,7 @@
 				<Prp name="type" type="I" value="6"/>
 			</Node>
 			<Prp name="key" type="S" value="{8D50ACC3-2AAB-41BE-829F-4969304AA53E}"/>
-			<Prp name="settingsversion" type="S" value="10.60"/>
+			<Prp name="settingsversion" type="S" value="11.30"/>
 		</Node>
 		<Node name="test data">
 			<Node name="child list"/>
@@ -1174,6 +1185,6 @@
 			<Prp name="key" type="S" value="{BA755098-315F-45E1-B043-ADB75464E5D2}"/>
 		</Node>
 		<Prp name="signature" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
-		<Prp name="version" type="S" value="10.0"/>
+		<Prp name="version" type="S" value="11.0"/>
 	</Node>
 </Nodes>

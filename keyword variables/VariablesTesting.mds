@@ -23,81 +23,74 @@
 			<Prp name="key" type="S" value="{FF6EF7A1-5317-4964-BE0A-9E3E49D7A44D}"/>
 		</Node>
 		<Node name="child list">
-			<Node name="item0000000000">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
-				</Node>
-				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{C2711AF8-C72C-4876-85B8-B253F481806F}"/>
-				<Prp name="pluginname" type="S" value="Stores"/>
-				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
-				<Prp name="typename" type="S" value="Stores"/>
-			</Node>
-			<Node name="item0000000001">
-				<Node name="item data">
-					<Prp name="storage" type="S" value="TestedApps\TestedApps.tcTAs"/>
-				</Node>
-				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{A40D8A01-753F-4456-8328-7780B2890858}"/>
-				<Prp name="pluginname" type="S" value=""/>
-				<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
-				<Prp name="typename" type="S" value="Tested Applications"/>
-			</Node>
-			<Node name="item0000000002">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
-				</Node>
-				<Prp name="index" type="I" value="2"/>
-				<Prp name="key" type="S" value="{32616AF0-D98A-4E5B-8FC7-AFE9F081EDCC}"/>
-				<Prp name="pluginname" type="S" value="NameMapping"/>
-				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
-				<Prp name="typename" type="S" value="Name Mapping"/>
-			</Node>
-			<Node name="item0000000003">
+			<Node name="keywordtests">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="KeywordTests\KeywordTests.tcKDT"/>
 				</Node>
-				<Prp name="index" type="I" value="3"/>
 				<Prp name="key" type="S" value="{3A0C6EB5-F741-4272-A92E-888B2D187924}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
 				<Prp name="typename" type="S" value="Keyword Testing"/>
 			</Node>
-			<Node name="item0000000004">
+			<Node name="namemapping">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
+				</Node>
+				<Prp name="key" type="S" value="{32616AF0-D98A-4E5B-8FC7-AFE9F081EDCC}"/>
+				<Prp name="pluginname" type="S" value="NameMapping"/>
+				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+				<Prp name="typename" type="S" value="Name Mapping"/>
+			</Node>
+			<Node name="script">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
 				</Node>
-				<Prp name="index" type="I" value="4"/>
 				<Prp name="key" type="S" value="{43929FD5-C899-494C-9F7B-252A45C78A78}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
 				<Prp name="typename" type="S" value="Script"/>
+			</Node>
+			<Node name="stores">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+				</Node>
+				<Prp name="key" type="S" value="{C2711AF8-C72C-4876-85B8-B253F481806F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
+				<Prp name="typename" type="S" value="Stores"/>
+			</Node>
+			<Node name="testedapps">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="TestedApps\TestedApps.tcTAs"/>
+				</Node>
+				<Prp name="key" type="S" value="{A40D8A01-753F-4456-8328-7780B2890858}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+				<Prp name="typename" type="S" value="Tested Applications"/>
 			</Node>
 		</Node>
 		<Node name="config">
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
 		</Node>
 		<Node name="folders">
-			<Node name="folders">
-				<Node name="folder0000000000">
-					<Node name="folders"/>
-					<Node name="references">
-						<Node name="ref0000000000">
-							<Prp name="index" type="I" value="0"/>
-							<Prp name="key" type="S" value="{43929FD5-C899-494C-9F7B-252A45C78A78}"/>
-						</Node>
-					</Node>
-					<Prp name="caption" type="S" value="Advanced"/>
-					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
-					<Prp name="index" type="I" value="0"/>
-					<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
+			<Node name="advanced">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{43929fd5-c899-494c-9f7b-252a45c78a78}" type="S" value=""/>
 				</Node>
+				<Prp name="caption" type="S" value="Advanced"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
 			</Node>
 		</Node>
 		<Node name="issue tracking">
 			<Prp name="key" type="S" value="{60912C89-8E27-407B-914C-D1AB2E29AFBA}"/>
 		</Node>
-		<Node name="scc"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			<Prp name="name" type="S" value=""/>
+		</Node>
 		<Node name="settings">
 			<Node name="{0787aa13-4c49-418a-a688-b23be9f226f4}">
 				<Prp name="type" type="I" value="1"/>
@@ -314,6 +307,10 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{5b70169c-3929-4b5f-bc46-0fd984becf45}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
 			<Node name="{6ba39d6a-88c9-49b1-a310-a31f46136dfb}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
@@ -352,8 +349,10 @@
 				<Prp name="col7type" type="I" value="2"/>
 				<Prp name="col8enabled" type="B" value="-1"/>
 				<Prp name="col8type" type="I" value="2"/>
-				<Prp name="colcount" type="I" value="9"/>
-				<Prp name="colindex" type="I" value="8"/>
+				<Prp name="col9enabled" type="B" value="-1"/>
+				<Prp name="col9type" type="I" value="4"/>
+				<Prp name="colcount" type="I" value="10"/>
+				<Prp name="colindex" type="I" value="9"/>
 				<Prp name="rowcount" type="I" value="8"/>
 				<Prp name="rowindex" type="I" value="7"/>
 				<Prp name="type" type="I" value="6"/>
@@ -429,6 +428,14 @@
 				<Prp name="val8x5" type="I" value="320"/>
 				<Prp name="val8x6" type="I" value="640"/>
 				<Prp name="val8x7" type="I" value="1280"/>
+				<Prp name="val9x0" type="D" value="1"/>
+				<Prp name="val9x1" type="D" value="1"/>
+				<Prp name="val9x2" type="D" value="1"/>
+				<Prp name="val9x3" type="D" value="1"/>
+				<Prp name="val9x4" type="D" value="1"/>
+				<Prp name="val9x5" type="D" value="1"/>
+				<Prp name="val9x6" type="D" value="1"/>
+				<Prp name="val9x7" type="D" value="1"/>
 			</Node>
 			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
 				<Prp name="type" type="I" value="1"/>
@@ -1204,7 +1211,7 @@
 				<Prp name="type" type="I" value="6"/>
 			</Node>
 			<Prp name="key" type="S" value="{AAE5A316-93E5-4C70-9BE5-53A2D9AC6D56}"/>
-			<Prp name="settingsversion" type="S" value="10.60"/>
+			<Prp name="settingsversion" type="S" value="11.30"/>
 		</Node>
 		<Node name="test data">
 			<Node name="child list"/>
@@ -1257,6 +1264,6 @@
 			<Prp name="version" type="I" value="3"/>
 		</Node>
 		<Prp name="signature" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
-		<Prp name="version" type="S" value="10.0"/>
+		<Prp name="version" type="S" value="11.0"/>
 	</Node>
 </Nodes>

@@ -22,6 +22,7 @@
 		<Node name="data">
 			<Node name="logs">
 				<Prp name="key" type="S" value="{7C2985BA-742F-4137-B7AB-60656E946E84}"/>
+				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>

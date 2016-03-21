@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{0b5aad3b-3a2b-45f6-b6bc-e9d54ab1473c}">
+				<Prp name="relpath" type="S" value="..\distributed add inventory\1_CreatePurchaseOrders.mds.tcLS"/>
+			</Node>
+			<Node name="{0fed7348-efce-4348-a354-73b8a2f55123}">
+				<Prp name="relpath" type="S" value="..\distributed - master\MasterProject.mds.tcLS"/>
+			</Node>
+			<Node name="{1b656622-43eb-450f-9617-2ad7312cf222}">
+				<Prp name="relpath" type="S" value="..\issue tracking\IssueTrackingIntegration.mds.tcLS"/>
+			</Node>
+			<Node name="{1c3a116f-3503-4dec-8b3e-99d501dadbb7}">
+				<Prp name="relpath" type="S" value="..\keyword objects\KeywordObjectsOperations.mds.tcLS"/>
+			</Node>
+			<Node name="{1d6579bd-fde9-49cf-b031-cf8f1a3a808d}">
+				<Prp name="relpath" type="S" value="..\vb object hiearchy\VBProject.mds.tcLS"/>
+			</Node>
+			<Node name="{21bc4fae-95b2-4924-abcd-191ec81b86bf}">
+				<Prp name="relpath" type="S" value="..\keyword fail test and continue\FailTestItemAndContinue.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{D3902E2F-2E38-45F4-9281-6F9BCA84920B}"/>
+			</Node>
+			<Node name="{28b14177-f132-4327-be39-7b70b6e35c92}">
+				<Prp name="relpath" type="S" value="..\keyword variables\VariablesTesting.mds.tcLS"/>
+			</Node>
+			<Node name="{2c052af8-bcc8-4ade-a1a3-c2aaab227b57}">
+				<Prp name="relpath" type="S" value="..\parse log\ParseLog.mds.tcLS"/>
+			</Node>
+			<Node name="{2d807e4e-be81-4ecc-ab06-41d7461c1b83}">
+				<Prp name="relpath" type="S" value="..\email test results\EmailTestResults.mds.tcLS"/>
+			</Node>
+			<Node name="{33addc56-4392-441b-9dd3-ff4701ab719c}">
+				<Prp name="relpath" type="S" value="..\native web object\Web.mds.tcLS"/>
+			</Node>
+			<Node name="{3802a9c4-11ac-48ce-a1b9-997c28ab9e56}">
+				<Prp name="relpath" type="S" value="..\launch and close ie\LaunchAndCloseIE.mds.tcLS"/>
+			</Node>
+			<Node name="{3b903647-955e-4a4d-b860-7aa1ecdb3a43}">
+				<Prp name="relpath" type="S" value="..\timeouts using performance counter\Timeouts.mds.tcLS"/>
+			</Node>
+			<Node name="{49943c64-b8b6-4c50-8703-154998ffe507}">
+				<Prp name="relpath" type="S" value="..\hide events\HideEvents.mds.tcLS"/>
+			</Node>
+			<Node name="{51949ea3-a88a-4b6b-ac32-73388c5308fa}">
+				<Prp name="relpath" type="S" value="..\test keyword extension\TestKeywordExtension.mds.tcLS"/>
+			</Node>
+			<Node name="{526fce5a-a10c-4ae9-a382-4f5ec0933bfc}">
+				<Prp name="relpath" type="S" value="..\email results\EmailResults.mds.tcLS"/>
+			</Node>
+			<Node name="{55d316a2-9ccf-48dc-a770-b8a664475d76}">
+				<Prp name="relpath" type="S" value="..\throw catch\ThrowTest.mds.tcLS"/>
+			</Node>
+			<Node name="{9bb633b8-a5ba-4d60-ada2-82dc120ca519}">
+				<Prp name="relpath" type="S" value="..\distributed add tasks programmatically\MasterScriptedProject.mds.tcLS"/>
+			</Node>
+			<Node name="{9fb6d850-bcb0-4d4f-b97d-9cc586154da3}">
+				<Prp name="relpath" type="S" value="..\distributed  - slave\SlaveProject.mds.tcLS"/>
+			</Node>
+			<Node name="{a37834f1-9417-4a7a-9825-400b518a70a8}">
+				<Prp name="relpath" type="S" value="..\distributed using sync points\SyncPoints.mds.tcLS"/>
+			</Node>
+			<Node name="{a6dae5c8-d625-4c35-9bea-db44ab85c180}">
+				<Prp name="relpath" type="S" value="..\object stores\CKObjectStores.mds.tcLS"/>
+			</Node>
+			<Node name="{ab24a569-6685-4f31-8f67-35854aa3fded}">
+				<Prp name="relpath" type="S" value="..\keyword assign variables\KeywordAssignVariables.mds.tcLS"/>
+			</Node>
+			<Node name="{aba0e314-391f-477e-9020-ebc706377d2a}">
+				<Prp name="relpath" type="S" value="..\keyword operations\InteropWithScript.mds.tcLS"/>
+			</Node>
+			<Node name="{affa2275-1b44-40d4-ba6d-bb161e4d319d}">
+				<Prp name="relpath" type="S" value="..\run tc from command line\RunFromCommand.mds.tcLS"/>
+			</Node>
+			<Node name="{be65f852-210b-447e-a9a0-441952e068b2}">
+				<Prp name="relpath" type="S" value="..\typescript poc\TypescriptPoc.mds.tcLS"/>
+			</Node>
+			<Node name="{cfb92de2-7e05-402c-a11d-41711c4f2a23}">
+				<Prp name="relpath" type="S" value="..\test items error settings\Project2.mds.tcLS"/>
+			</Node>
+			<Node name="{d3902e2f-2e38-45f4-9281-6f9bca84920b}">
+				<Prp name="relpath" type="S" value="..\aqfile_usage\Aq_utility_objects.mds.tcLS"/>
+			</Node>
+			<Node name="{df3d2a5f-436d-467b-b2c0-f80a8a67d01b}">
+				<Prp name="relpath" type="S" value="..\distributed log inventory\2_UsePurchaseOrders.mds.tcLS"/>
+			</Node>
+			<Node name="{e1e80a3e-1011-4f74-982f-6d811f1017a8}">
+				<Prp name="relpath" type="S" value="..\test items error settings\TestItemsErrorSettings.mds.tcLS"/>
+			</Node>
+			<Node name="{f1db5d0b-e794-4bd2-ab3a-0997613e7d61}">
+				<Prp name="relpath" type="S" value="..\ping and write test log\PingAndWriteTextLog.mds.tcLS"/>
+			</Node>
+			<Node name="{f32cb5c5-3f5c-45c4-9ce4-bec53ec74a92}">
+				<Prp name="relpath" type="S" value="..\keyword events\EventsTest.mds.tcLS"/>
+			</Node>
+			<Node name="{f55587f4-1def-4fd7-9cb1-beb1969a5ef1}">
+				<Prp name="relpath" type="S" value="..\keyword extension\KeywordExtension.mds.tcLS"/>
+			</Node>
+			<Node name="{f730d5a7-99e6-40d2-b9bd-9cb0bb954bb3}">
+				<Prp name="relpath" type="S" value="..\jscript objects\JScriptObjects.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{64AE51DA-D0A8-453F-97DF-19AE571AEBA0}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

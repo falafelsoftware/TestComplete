@@ -1,5 +1,0 @@
-C:\Users\Noel\Documents\TestComplete 11 Projects\DotNetClassLib\DotNetClassLib\bin\Debug\DotNetClassLib.dll
-C:\Users\Noel\Documents\TestComplete 11 Projects\DotNetClassLib\DotNetClassLib\bin\Debug\DotNetClassLib.pdb
-C:\Users\Noel\Documents\TestComplete 11 Projects\DotNetClassLib\DotNetClassLib\obj\Debug\DotNetClassLib.csprojResolveAssemblyReference.cache
-C:\Users\Noel\Documents\TestComplete 11 Projects\DotNetClassLib\DotNetClassLib\obj\Debug\DotNetClassLib.dll
-C:\Users\Noel\Documents\TestComplete 11 Projects\DotNetClassLib\DotNetClassLib\obj\Debug\DotNetClassLib.pdb

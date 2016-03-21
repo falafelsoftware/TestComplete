@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="10.0">
+	<TestData Description="This test demonstrates processing a single Excel file using the built-in Data-Driven Loop operation from the Test Actions section" Key="{86796859-5DD3-416E-95BE-493786AED4EC}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="NameMapping.Sys" Data="61717A69700000000100000036040000780185924D48147118C69F99B52F2290482C3BD8A5744F1B2523E4C50FD47059D6422D084A5CB4C5916C55240F0BC14AAE9B357EA0045A91144BEDA52E7B3008B62010BB28658481821D0A2AA8E8B6E3F47FDFD9FFB81B9933BC33FFF9F8BDEFF33C33D53E2D0FBC69E2582A2A3F530A8E8895D832CFED0BFB6861EBDD38BF17754DC7B13F7406B8ECC54EBD8CAFB726369F44DADCD0C66F0133291424DFA178FE17F2E73E41BD19FFCF449B4F042AA0D757F1BBC4EF7EB6C27CD1A20525F51D8DED179C1E5FDBBD58EF6841221AC273BD151F2EFAB1527302E193477120769FE7AB89B738F4EA1B88C7EBDFD0067B1CDEECAA8579FD12CC7B837689F59ABF0223356EEC88DCE11ECAEC3C6BE7F96F367078ECB1C39362B3BFD9E1AD6890F5C4350F4A3BDBD883E4290345F09407DD936999577CB0A60660C50D58C655FCEC6EC672B99B7D9207753289C2E9247392556EB43AFC47E19D3C10CF3E841EF23074D6CF5EE9DDC2A100AFD5B9011C7B3202A5DBEFF0EC218B270FC98017A16090BFBD7AED1C94A73D702DC7B0EBC75D3E534F7521E2F468D05F60D8887211E76979004F752F97ABDF073CEC82FA328CBCCF53DC83FA51C90C4AC226A86AC7D238D8B7019C7E0FE5548A79D28AC90E9076D7EA28F334FB6FBE3C66A271DAEE83A62F393CE9951EF6A41F711FCA44CEA7B39C4F1AF6E9266B504B667332A0B99401F9204FD93CE9AEBC9D06E9C8E6F93F1019D6CD6CE6E55998C8D12FE7135B656432C878C89EB1DD9AB4CB0C8A034B39FAFEC5FE011D5C9478" />
+					<Bitmap Name="NameMapping.Sys.Process(&quot;Orders&quot;)" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC28190FFFFFF67A014BFFFFE9DE10389F8FDD7AF0CBFFFFC61B8B3772FC30417178629BEBE44E3A940B57DFEFE0CF76EDD6238B76001C3F38B1719DEDDBDCBF0F6CE1DA2F0D7972F19E68784305C3C7C98E1E2D2A50C7F7EFF26390C56A6A5315C02EABFB06409C3AF6FDF48D6BF222565543F15C2EFD2F2E524873D28BDAFCDCE0287FFB1E9D319E6646430AC2C2B6358535ACAB018881701F10A2086F38B4B1956379732AC9F58CAB0B6AE84614E430743ADBE29C3D513C719CE4C9ECC300F98950E00F139205E0DC42B80783F127F39907D4A9A81E14E2003C3453606865660CE6C9431617872F716C397478F181E3637333C686F67B8DFD1C1F0088A1F006964FEFDA60E867BB540B1E67686A70DB50C2FB76E82FBFB1FD03FA462589E070020847BF0" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="if the Orders process is not running, run the Orders TestedApp" />
+			</Operation>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.Process(&quot;Orders&quot;);" />
+				</Data>
+				<Children>
+					<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+						<Data Description="Runs the &quot;Orders&quot; tested application." TestedApp="Orders">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="use the built-in Data Driven Loop test action to run a test multiple times" />
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="MyTable">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the %p1 item of the &apos;%n&apos; toolbar." Action="ClickItem">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="4" />
+								<Parameter Name="ByPosition" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;MainForm&quot;).WinFormsObject(&quot;ToolBar&quot;);" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="MyTable" ColumnName="Customer" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Customer&quot;);" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;ButtonOK&quot;);" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{EF733665-3C78-4E91-A3A5-68DA01A2DD7A}">
+		<Items>
+			<Variable Name="MyTable" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="\Data\orders.xls" Table="Order" HasColumnNames="True" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{8ECF0EC6-7EB9-4608-B3C5-998F34B59D8A}">
+		<Parameter0 Name="MyTableFromParams" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

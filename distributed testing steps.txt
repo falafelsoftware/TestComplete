@@ -1,0 +1,18 @@
+-Install TC & TE, same versions
+-Verify that TE runs. 
+  If VM, need floating license.
+  Verify floating license is activated on licensing machine
+    and on the same network as TE
+-on TE machine, Verify TC allowed through firewall
+-on TE machine, verify RDP allowed
+-on TE machine, open up TestCompleteService firewall
+-on TC machine, config host, verify
+-on TC machine, right-click host and copy to slave
+-on TE, manually check that directory and project are created
+-on TC, set NetworkSuite>Properties>Deploy mode: Automatic
+-on TC, task, right-click and Verify
+-on TC, task, right-click and run job.
+   job has single logging line
+   for actual apps, make sure pre-reqs are on slave machine, like .NET, etc
+-on TC, examine log
+-on TE, notice that TE is shut down, but leaves log up

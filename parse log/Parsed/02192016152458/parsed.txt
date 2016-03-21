@@ -1,0 +1,340 @@
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	A folder	2/19/2016 2:49:28 PM	Normal		0	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\1.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland"></xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1912933754	message	2/19/2016 2:49:28 PM	Normal		0	Message	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\2.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">additional info</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 2:	-2147152433	Microsoft JScript runtime error.	2/19/2016 2:49:42 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\3.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Object doesn't support this property or method
+Error location:
+Unit: "ParseLog\ParseLog\Script\GenerateLog"
+Line: 4 Column: 3.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874	test	GenerateLog	4	
+Row 3:	-2147152433	The test run has stopped because the "Stop on Error" setting is enabled.	2/19/2016 2:49:43 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\4.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><html><body><p>The test execution has stopped because --</p><ul><li>An error message was posted to the log and</li><li>The <a href="aqa-help://6090">Stop on Error</a> project property is enabled.</li></ul><p> If you don't want the test to stop on errors, disable this property (<b>Project Editor &rArr; Properties &rArr; Playback</b>), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.</p><a href="aqa-help://2207">Read More</a></p></body></html></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		GenerateLog	4	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 2:49:43 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	1912933754	A folder	2/19/2016 2:49:53 PM	Normal		0	Message	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\5.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland"></xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1912933754	message	2/19/2016 2:49:53 PM	Normal		0	Message	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\6.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">additional info</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 2:	319097727	screenshot	2/19/2016 2:49:53 PM	Normal		1845825199	Image	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\7.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland"></xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 2:49:53 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Script execution was interrupted.	2/19/2016 2:57:32 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\8.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Possible reasons:
+ - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.
+ - The test run was stopped manually.
+ - The test run was terminated as a result of the Runner.Halt method call.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	15	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 2:57:32 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Script execution was interrupted.	2/19/2016 2:59:00 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\9.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Possible reasons:
+ - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.
+ - The test run was stopped manually.
+ - The test run was terminated as a result of the Runner.Halt method call.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	15	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 2:59:00 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Microsoft JScript runtime error.	2/19/2016 3:00:41 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\10.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Path not found
+Error location:
+Unit: "ParseLog\ParseLog\Script\ParseLog"
+Line: 20 Column: 5.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874	ExportLog	ParseLog	20	
+Row 2:	-2147152433	The test run has stopped because the "Stop on Error" setting is enabled.	2/19/2016 3:00:41 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\11.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><html><body><p>The test execution has stopped because --</p><ul><li>An error message was posted to the log and</li><li>The <a href="aqa-help://6090">Stop on Error</a> project property is enabled.</li></ul><p> If you don't want the test to stop on errors, disable this property (<b>Project Editor &rArr; Properties &rArr; Playback</b>), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.</p><a href="aqa-help://2207">Read More</a></p></body></html></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	20	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 3:00:41 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Microsoft JScript runtime error.	2/19/2016 3:14:38 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\12.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Path not found
+Error location:
+Unit: "ParseLog\ParseLog\Script\ParseLog"
+Line: 20 Column: 5.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874	ExportLog	ParseLog	20	
+Row 2:	-2147152433	The test run has stopped because the "Stop on Error" setting is enabled.	2/19/2016 3:14:38 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\13.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><html><body><p>The test execution has stopped because --</p><ul><li>An error message was posted to the log and</li><li>The <a href="aqa-help://6090">Stop on Error</a> project property is enabled.</li></ul><p> If you don't want the test to stop on errors, disable this property (<b>Project Editor &rArr; Properties &rArr; Playback</b>), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.</p><a href="aqa-help://2207">Read More</a></p></body></html></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	20	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 3:14:38 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Microsoft JScript runtime error.	2/19/2016 3:15:53 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\14.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Path not found
+Error location:
+Unit: "ParseLog\ParseLog\Script\ParseLog"
+Line: 20 Column: 5.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874	ExportLog	ParseLog	20	
+Row 2:	-2147152433	The test run has stopped because the "Stop on Error" setting is enabled.	2/19/2016 3:15:54 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\15.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><html><body><p>The test execution has stopped because --</p><ul><li>An error message was posted to the log and</li><li>The <a href="aqa-help://6090">Stop on Error</a> project property is enabled.</li></ul><p> If you don't want the test to stop on errors, disable this property (<b>Project Editor &rArr; Properties &rArr; Playback</b>), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.</p><a href="aqa-help://2207">Read More</a></p></body></html></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	20	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 3:15:54 PM	
+
+Name: Test Log
+-------------------------------------------
+
+Name: Performance Counters
+-------------------------------------------
+
+Name: Test Log
+-------------------------------------------
+
+Name: Performance Counters
+-------------------------------------------
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Microsoft JScript runtime error.	2/19/2016 3:21:11 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\16.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Path not found
+Error location:
+Unit: "ParseLog\ParseLog\Script\ParseLog"
+Line: 20 Column: 5.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874	ExportLog	ParseLog	20	
+Row 2:	-2147152433	The test run has stopped because the "Stop on Error" setting is enabled.	2/19/2016 3:21:12 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\17.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><html><body><p>The test execution has stopped because --</p><ul><li>An error message was posted to the log and</li><li>The <a href="aqa-help://6090">Stop on Error</a> project property is enabled.</li></ul><p> If you don't want the test to stop on errors, disable this property (<b>Project Editor &rArr; Properties &rArr; Playback</b>), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.</p><a href="aqa-help://2207">Read More</a></p></body></html></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	20	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 3:21:12 PM	
+
+Name: Test Log
+-------------------------------------------
+Row 1:	-2147152433	Script execution was interrupted.	2/19/2016 3:21:56 PM	Normal		1845825199	Error	
+
+Name: Picture
+-------------------------------------------
+Picture: C:\Users\noel\Documents\testcomplete\Log\ParseLog\ParseLog\parsed\02192016152458\\18.jpg
+
+Name: Additional Info
+-------------------------------------------
+Text: <html><head><script>function writeContent(){ var c = document.getElementById("container"); c[("innerText" in c) ? "innerText" : "textContent"] = document.getElementById("dataIsland").innerHTML; }window.onload = writeContent;</script></head><xml id="dataIsland">Possible reasons:
+ - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.
+ - The test run was stopped manually.
+ - The test run was terminated as a result of the Runner.Halt method call.</xml><body><div id="container"></div></body></html>
+
+Name: Call Stack
+-------------------------------------------
+Row 1:	1040522874		ParseLog	16	
+
+Name: Performance Counters
+-------------------------------------------
+Row 1:	2/19/2016 3:21:56 PM	
+
+Name: Test Log
+-------------------------------------------
+
+Name: Performance Counters
+-------------------------------------------
+
+Name: Test Log
+-------------------------------------------
+
+Name: Performance Counters
+-------------------------------------------

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value="Keyword Test Log [TestB]"/>
+				<Prp name="start time" type="D" value="42248.6439855324"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="42248.6440738657"/>
+				<Prp name="details" type="S" value="{D2F66D3A-40EC-4489-B207-562272176438}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages">
+					<Node name="row0">
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="extended message" type="S" value="&lt;html&gt;&lt;style&gt;body {	font-family:  Segoe UI, Tahoma, Arial, Helvetica, sans-serif;	font-size: 10pt;	font-weight: normal;	padding: 14px 8px 8px 14px;	margin: 0;}p {	margin: 14px 0;	padding: 0;}ul {	margin: 1ex 0 1ex 2ex;	padding: 0;}li {	margin: 1ex 0 0 3ex;	padding: 0 0;}.LinkText {	margin-top: 20px;	margin-bottom: 20px;}.FirstLine {	font-size: 12pt;	color: #003399;}a {	color: #0066CC;}td {	font-family:  Segoe UI, Tahoma, Arial, Helvetica, sans-serif;	font-size: 10pt;	padding: 5px;	border-bottom: 2px solid #0066CC;}table {	margin-top: 20px;	text-align:left;	width: 100%;}th {	font-weight : normal;	font-size: 10pt;}.BoldLineBottom {	border-bottom: 2px solid #0066CC;}.BoldLineTop {	border-top: 2px solid #0066CC;}.BK {	background-color: #DBEFFD;}.HB {	width:10%;	white-space:nowrap;	padding: 4px 4px 4px 4px;	font-weight : bold;}&lt;/style&gt;&lt;body&gt;The test item execution has been stopped, because the test item's execution failed and the value of the &quot;Stop on error&quot; test item's property is &lt;i&gt;Test Item&lt;/i&gt;.&lt;p&gt;&lt;a href=&quot;aqa-help://2017&quot;&gt;Learn More About Stopping Test Execution&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+						<Prp name="priority" type="I" value="300"/>
+						<Prp name="time" type="D" value="42248.6440738657"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="message" type="S" value="The test item execution has been stopped."/>
+					</Node>
+				</Node>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="end time" type="D" value="42248.6440738657"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="42248.6440738657"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Project Log messages"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

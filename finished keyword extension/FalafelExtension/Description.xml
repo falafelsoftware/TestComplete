@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ScriptExtensionGroup>
+
+  <Category Name="Keyword Test Operations">
+    <ScriptExtension Name="Window Operation" Author="Falafel" Version="1.0" HomePage="www.falafel.com">
+      <Script Name="WindowOperations.js">
+        <KDTOperation Name="Window Method" Category="Window Operations" Icon="falafelIcon.bmp">
+          <Data>
+            <Field Name="WindowMethodName" />
+            <Field Name="WindowObjectName"/>
+          </Data>
+          <Columns>
+            <Column Name="Item" Value="Window Method" />
+            <Column Name="Value" GetValue="GetValue" />
+            <Column Name="Operation" GetValue="GetOperation" />
+            <Column Name="Description" GetValue="GetDescription" />
+          </Columns>
+          <Events>
+            <Event Name="OnCreate" Routine="OnCreate"/>
+            <Event Name="OnSetup" Routine="OnSetup"/>
+            <Event Name="OnExecute" Routine="OnExecute"/>
+          </Events>
+        </KDTOperation>
+      </Script>
+      <Description>
+        Provides Falafel Keyword Operations
+      </Description>
+    </ScriptExtension>
+  </Category>
+</ScriptExtensionGroup>

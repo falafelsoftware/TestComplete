@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noLib": true,
+    "target": "es3",
+    "rootDir": ".\\ts\\",
+    "outDir": ".",
+    "diagnostics": true,
+    "noImplicitAny": true,
+    "noEmitHelpers": false,
+    "removeComments": false
+  }
+}

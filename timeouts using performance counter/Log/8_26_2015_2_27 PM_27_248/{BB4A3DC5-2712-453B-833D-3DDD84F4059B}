@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="42242.6025643287"/>
+			<Prp name="message" type="S" value="Notepad process took 3 milliseconds to finish"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="date" type="D" value="42242.6025459259"/>
+			<Prp name="message" type="S" value="Notepad window exists"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Notepad exists!&quot;, 1).MainMenu"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="42242.602547662"/>
+			<Prp name="message" type="S" value="The menu item 'File|Exit' was clicked."/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="20"/>
+				<Prp name="dv-4" type="D" value="14"/>
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-5" type="D" value="14"/>
+				<Prp name="dv-3" type="D" value="14"/>
+				<Prp name="dv-2" type="D" value="20"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [MASTER-WIN8]"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="color" type="I" value="128"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{9A617926-D3C3-4EC0-A5E0-1CED45B3B30D}"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{CEAF4606-CF6D-4C7B-892C-D0A9FC84C188}"/>
+		</Node>
+		<Node name="n-5">
+			<Node name="data">
+				<Prp name="i-2" type="I" value="0"/>
+				<Prp name="i-0" type="I" value="0"/>
+				<Prp name="i-3" type="I" value="0"/>
+				<Prp name="i-4" type="I" value="0"/>
+				<Prp name="i-1" type="I" value="0"/>
+				<Prp name="i-5" type="I" value="0"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="-1"/>
+			<Prp name="name" type="S" value="# of IL Bytes Jitted [MASTER-WIN8]"/>
+			<Prp name="columnindex" type="I" value="5"/>
+			<Prp name="color" type="I" value="5451669"/>
+			<Prp name="description" type="S" value="This counter displays the total IL bytes jitted since the start of the application. This counter is exactly equivalent to the &quot;Total # of IL Bytes Jitted&quot; counter."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{2AF0EC48-16C2-4E98-9302-450155928797}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="2"/>
+				<Prp name="dv-4" type="D" value="7"/>
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-5" type="D" value="7"/>
+				<Prp name="dv-3" type="D" value="7"/>
+				<Prp name="dv-2" type="D" value="2"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% Disk Time [MASTER-WIN8]"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="color" type="I" value="5273033"/>
+			<Prp name="description" type="S" value="Percentage of time the drives were busy."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{EE6F83F6-97F8-4A4A-9E49-D47E29087596}"/>
+			<Prp name="countertype" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="i-2" type="I" value="2450"/>
+				<Prp name="i-0" type="I" value="2414"/>
+				<Prp name="i-3" type="I" value="2420"/>
+				<Prp name="i-4" type="I" value="2420"/>
+				<Prp name="i-1" type="I" value="2450"/>
+				<Prp name="i-5" type="I" value="2420"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="-1"/>
+			<Prp name="name" type="S" value="Memory (MB) [MASTER-WIN8]"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="color" type="I" value="16018260"/>
+			<Prp name="description" type="S" value="Memory usage in kilobytes."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{D0A8E7FC-9055-49B8-BCAE-D5BA8B24EB23}"/>
+			<Prp name="countertype" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="15"/>
+				<Prp name="dv-4" type="D" value="15"/>
+				<Prp name="dv-0" type="D" value="15"/>
+				<Prp name="dv-5" type="D" value="15"/>
+				<Prp name="dv-3" type="D" value="15"/>
+				<Prp name="dv-2" type="D" value="15"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% Memory [MASTER-WIN8]"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="color" type="I" value="8516563"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{47CC3734-1BEB-4865-84D7-C5D35091703C}"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-3" type="D" value="42242.6025634028"/>
+				<Prp name="d-5" type="D" value="42242.6025643287"/>
+				<Prp name="d-4" type="D" value="42242.6025643287"/>
+				<Prp name="d-0" type="D" value="42242.6025203472"/>
+				<Prp name="d-2" type="D" value="42242.602547662"/>
+				<Prp name="d-1" type="D" value="42242.6025459259"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The elapsed time 18 (ms) is less than MaxExecTime 30 (ms)."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="42242.6025643287"/>
+			<Prp name="message" type="S" value="The checkpoint 'max notepad process shutdown time' for the performance counter 'DefaultCounter' passed."/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'n' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad&quot;).Window(&quot;#32770&quot;, &quot;Notepad&quot;, 1)"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="42242.6025634028"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The process ID is 4720."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="42242.6024031019"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\notepad.exe&quot; started."/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="6"/>
+	</Node>
+</Nodes>

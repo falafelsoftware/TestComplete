@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="actionoperations">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ActionOperations.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{D9AAD306-1226-4610-A564-3BF788991CDA}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="datadriven">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DataDriven.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{62A5CC4E-98CA-4F37-BC32-19052B03DCC1}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="processexcelfile">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProcessExcelFile.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{BE70CB8D-7CD3-46B1-8690-4FDA3547E664}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="readallexcelfiles">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ReadAllExcelFiles.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{0D6087E3-D3B4-4660-AA05-670225A8B18F}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="testedappsoperations">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestedAppsOperations.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{07BA348C-4776-483B-9799-EF2D30BECB0C}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="process all excel files in a folder">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{0d6087e3-d3b4-4660-aa05-670225a8b18f}" type="S" value=""/>
+					<Prp name="{be70cb8d-7cd3-46b1-8690-4fda3547e664}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Process All Excel Files in a folder"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="_extends">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_extends.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{A784B51C-BF29-445C-AE5C-96BBF80AF2CF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="smoke_test">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="smoke_test.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{A575DDC2-C8BB-4B51-8121-078B8F9405C7}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompletebaseunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteBaseUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{AE176188-B424-4CD3-BB20-36490CA83CA6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompletebrowserunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteBrowserUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{AF77BC47-9123-4C59-8D30-5300DB690A2B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompletememberunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteMemberUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{9EF97282-A8E5-4EC1-AAB0-4459EC481408}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompleteonscreenobjectunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteOnScreenObjectUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{CBD01386-A5C6-4D43-8CD6-C9791ABB088E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompletewebpageunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteWebPageUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{2E42E3D7-F900-48FE-AD56-83634C6ABEF3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testcompletewindowunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestCompleteWindowUnit.js"/>
+				</Node>
+				<Prp name="key" type="S" value="{02E1EFFD-43EC-476B-8DBD-FEA7296EC9DA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="testcomplete">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{02e1effd-43ec-476b-8dbd-fea7296ec9da}" type="S" value=""/>
+					<Prp name="{2e42e3d7-f900-48fe-ad56-83634c6abef3}" type="S" value=""/>
+					<Prp name="{9ef97282-a8e5-4ec1-aab0-4459ec481408}" type="S" value=""/>
+					<Prp name="{a784b51c-bf29-445c-ae5c-96bbf80af2cf}" type="S" value=""/>
+					<Prp name="{ae176188-b424-4cd3-bb20-36490ca83ca6}" type="S" value=""/>
+					<Prp name="{af77bc47-9123-4c59-8d30-5300db690a2b}" type="S" value=""/>
+					<Prp name="{cbd01386-a5c6-4d43-8cd6-c9791abb088e}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="TestComplete"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="unit tests">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{a575ddc2-c8bb-4b51-8121-078b8f9405c7}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Unit Tests"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

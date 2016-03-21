@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="synchpoints">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SynchPoints.tcNetSuiteSynchPoints"/>
+				</Node>
+				<Prp name="key" type="S" value="{B9544AAC-9666-46B4-8D87-D7F6934205BA}"/>
+				<Prp name="pluginname" type="S" value="Network Suite"/>
+				<Prp name="type" type="S" value="{0A9D19D7-1488-4023-B51C-2B5D64692E77}"/>
+				<Prp name="typename" type="S" value="SynchPoints"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings">
+			<Node name="{67026d48-d2aa-4462-8044-55337e5296bd}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{7c15473a-e54c-4a68-9377-eab7ac620192}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{c49e544f-259a-417b-bf43-123e23af1e44}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="1"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Manual"/>
+				<Prp name="val0x1" type="S" value="Automatic"/>
+			</Node>
+			<Node name="{ea795373-819c-4749-a66d-324911cede15}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{f9b4b72d-ea72-42fd-8765-0cc6d298231e}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Prp name="settingsversion" type="S" value="11.0"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{A221292E-065C-45E9-BF0D-2BA14B0E2C9C}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{342AA317-C8C7-4232-8A60-069723AAFC67}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

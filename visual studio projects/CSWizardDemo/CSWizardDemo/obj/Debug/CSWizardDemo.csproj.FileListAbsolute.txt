@@ -1,0 +1,9 @@
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\bin\Debug\CSWizardDemo.exe.config
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\bin\Debug\CSWizardDemo.exe
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\bin\Debug\CSWizardDemo.pdb
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.csprojResolveAssemblyReference.cache
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.Properties.Resources.resources
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.csproj.GenerateResource.Cache
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.exe
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.pdb
+C:\Users\Noel\OneDrive\Clients\SmartBear\TestComplete\AUT Projects\CSWizardDemo\CSWizardDemo\obj\Debug\CSWizardDemo.MyWizardClass.resources

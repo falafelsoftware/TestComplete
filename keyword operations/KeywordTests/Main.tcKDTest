@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="10.0">
+	<TestData Description="" Key="{85627CB1-1360-4635-88B2-64E3D2BCCC2B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+				<Data Description="Executes the specified code snippet." LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" CodeExpression="Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1).Activate()" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="logOrder" Unit="ScriptOrderLogging">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="orderID" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="2332233" />
+						<Parameter Name="customerName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Jack Smith" />
+						<Parameter Name="quantity" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="2" />
+						<Parameter Name="cost" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="5" ValueType="3" ValueValue="129.89" />
+						<Parameter Name="emailConfirmation" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DefaultConfirmation" />
+						<Parameter Name="note" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="logOrder" Unit="ScriptOrderLogging">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="orderID" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="78787878" />
+						<Parameter Name="customerName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Lana Cho" />
+						<Parameter Name="quantity" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DefaultQuantity" />
+						<Parameter Name="cost" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="5" ValueType="3" ValueValue="34.56" />
+						<Parameter Name="emailConfirmation" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="note" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="This is a note that will be used." />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LogOrder">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="OrderID" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="67676767" />
+						<Parameter Name="CustomerName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Barney Rubble" />
+						<Parameter Name="Quantity" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Cost" DefVarType="12" DefValueType="3" DefValueValue="0" VarType="5" ValueType="3" ValueValue="56.45" />
+						<Parameter Name="EmailConfirmation" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="Note" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="ordersComplete" Unit="ScriptOrderLogging" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{59F7B834-DE12-4407-82BC-791010FF975A}">
+		<Items>
+			<Variable Name="DefaultQuantity" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="1" />
+			</Variable>
+			<Variable Name="DefaultConfirmation" Type="{D25FDC80-E78F-4209-88B6-6FE2B0771206}" Local="False">
+				<DefValue BoolValue="True" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{5B8183BB-375F-485B-AC59-FE064CAF5FAF}" />
+</Root>

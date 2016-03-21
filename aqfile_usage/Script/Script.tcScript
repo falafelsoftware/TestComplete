@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="aqfileunit">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="aqFileUnit.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BC6F55E1-A76E-4755-B7B7-D33F43C4BB1E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="fileexpirationlistunit1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="FileExpirationListUnit1.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{72EEDDB2-0849-4475-8E4C-97B5CF710030}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="fileexpirationlistunit2">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="FileExpirationListUnit2.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1BA63634-0F45-4B6D-BA6E-EB6826423C19}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="fileexpirationlistunit3">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="FileExpirationListUnit3.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1A7CC4EB-A20C-42A4-8459-75B4ED11EF93}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="files and folders">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{0011cba0-8083-4e65-96ae-3f350b55c9f2}" type="S" value=""/>
+					<Prp name="{1a7cc4eb-a20c-42a4-8459-75b4ed11ef93}" type="S" value=""/>
+					<Prp name="{1ba63634-0f45-4b6d-ba6e-eb6826423c19}" type="S" value=""/>
+					<Prp name="{72eeddb2-0849-4475-8e4c-97b5cf710030}" type="S" value=""/>
+					<Prp name="{bc6f55e1-a76e-4755-b7b7-d33f43c4bb1e}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="files and folders"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

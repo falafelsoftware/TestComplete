@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="5">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{0585BA01-F665-414A-BA8E-290CFC872362}" ParallelWalk="True">
+				<TypeInfo Item0="{27F0017A-BC91-47BA-B0AA-82933831BACE}" />
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="CSWizardDemo" Key="{93EAA5A1-52B2-40FA-B7E4-BA2A084F47C1}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="CSWizardDemo" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MyWizardClass" Key="{685ABC15-8398-47C6-ABE9-55317F88F25B}" ParallelWalk="True">
+								<Properties>
+									<Property Name="NativeClrObject.Name">
+										<Value PropertyType="0" Value="MyWizardClass" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel2" Key="{D3C5CC90-DC8F-44F9-87D4-52A245F88470}" ParallelWalk="True">
+										<Properties>
+											<Property Name="NativeClrObject.Name">
+												<Value PropertyType="0" Value="panel2" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="tabControl1" Key="{C97601E6-E42B-4951-AE5E-8712F8420924}" ParallelWalk="True">
+												<Properties>
+													<Property Name="NativeClrObject.Name">
+														<Value PropertyType="0" Value="tabControl1" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tabPage1" Key="{76FC953A-DEAA-4A1A-A90C-5CB6AF3356C2}" ParallelWalk="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.TabPage" Type="5" />
+															</Property>
+															<Property Name="Visible">
+																<Value PropertyType="0" Value="True" Type="6" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="monthCalendar1" Key="{53D25849-4965-485E-BF02-87465B15DB8F}" ParallelWalk="True">
+																<TypeInfo Item0="{A6BE4E94-EE4D-4A0B-AB06-FEDCB589D7E3}" />
+																<Properties>
+																	<Property Name="NativeClrObject.Name">
+																		<Value PropertyType="0" Value="monthCalendar1" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="dateTimePicker1" Key="{297CFD15-4BAF-42F4-AF9B-B8D8A5B93704}" ParallelWalk="True">
+																<TypeInfo Item0="{D35B17E2-73C4-4035-8A41-8015810FF18E}" />
+																<Properties>
+																	<Property Name="NativeClrObject.Name">
+																		<Value PropertyType="0" Value="dateTimePicker1" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="radioButton2" Key="{383AB1D3-1A45-4CDC-8F40-E3C5CF71BE18}" ParallelWalk="True">
+																<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+																<Properties>
+																	<Property Name="NativeClrObject.Name">
+																		<Value PropertyType="0" Value="radioButton2" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panel1" Key="{D9F0B202-F60D-4224-AAA3-4039A289E39C}" ParallelWalk="True">
+										<Properties>
+											<Property Name="NativeClrObject.Name">
+												<Value PropertyType="0" Value="panel1" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NextButton" Key="{13E159D4-AE9A-41D1-8B91-A8B316C4DB36}" ParallelWalk="True">
+												<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+												<Properties>
+													<Property Name="NativeClrObject.Name">
+														<Value PropertyType="0" Value="NextButton" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="FinishButton" Key="{F2F290B3-0965-4D0F-A02E-0C339699045B}" ParallelWalk="True">
+												<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+												<Properties>
+													<Property Name="NativeClrObject.Name">
+														<Value PropertyType="0" Value="FinishButton" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndDropDown" Key="{76A7DB8C-654D-4B91-9DED-425FD69EB6B1}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="DropDown" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SysMonthCal32" Key="{3AFD450E-C5ED-4083-BEFE-C38F3E788FE1}" ParallelWalk="True">
+										<TypeInfo Item0="{A6BE4E94-EE4D-4A0B-AB06-FEDCB589D7E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="SysMonthCal32" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Wizard" Owner="{685ABC15-8398-47C6-ABE9-55317F88F25B}">
+			<Child Name="NavigationPanel" Owner="{D9F0B202-F60D-4224-AAA3-4039A289E39C}">
+				<Child Name="NextButton" Owner="{13E159D4-AE9A-41D1-8B91-A8B316C4DB36}" />
+				<Child Name="FinishButton" Owner="{F2F290B3-0965-4D0F-A02E-0C339699045B}" />
+			</Child>
+			<Child Name="CurrentPage" Owner="{76FC953A-DEAA-4A1A-A90C-5CB6AF3356C2}">
+				<Child Name="Calendar" Owner="{53D25849-4965-485E-BF02-87465B15DB8F}" />
+				<Child Name="CustomizeSettings" Owner="{383AB1D3-1A45-4CDC-8F40-E3C5CF71BE18}" />
+				<Child Name="DateTimePicker" Owner="{297CFD15-4BAF-42F4-AF9B-B8D8A5B93704}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="0" />
+</Root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="10.0">
+	<TestData Description="" Key="{22D91B97-0A68-4B98-8B66-B983BBA6B7BA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs all the tested applications." IsAllTestedApps="True" />
+			</Operation>
+			<Operation Moniker="Keyword Test OperationsWindow OperationFalafel1.0Window Method" StringID="Operation: Window Method&#13;&#10;Plug-in: Window Operation (Version: 1.0, Falafel)">
+				<Data>
+					<Data>
+						<WindowMethodName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Maximize" />
+						<WindowObjectName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Aliases.notepad.wndNotepad" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test OperationsWindow OperationFalafel1.0Window Method" StringID="Operation: Window Method&#13;&#10;Plug-in: Window Operation (Version: 1.0, Falafel)">
+				<Data>
+					<Data>
+						<WindowMethodName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Maximize" />
+						<WindowObjectName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Aliases.mspaint.Item" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test OperationsWindow OperationFalafel1.0Window Method" StringID="Operation: Window Method&#13;&#10;Plug-in: Window Operation (Version: 1.0, Falafel)">
+				<Data>
+					<Data>
+						<WindowMethodName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Restore" />
+						<WindowObjectName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Aliases.notepad.wndNotepad" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test OperationsWindow OperationFalafel1.0Window Method" StringID="Operation: Window Method&#13;&#10;Plug-in: Window Operation (Version: 1.0, Falafel)">
+				<Data>
+					<Data>
+						<WindowMethodName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Restore" />
+						<WindowObjectName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Aliases.mspaint.Item" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{4807F4AE-4594-407D-8457-160B1AE5CD4B}" />
+	<Parameters Key="{A5F31A6C-3044-4763-A5F7-7B04ECF75EEF}" />
+</Root>

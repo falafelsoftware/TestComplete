@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="mystore">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="MyStore"/>
+					<Prp name="filename" type="S" value="Objects\MyStore.tcObject"/>
+					<Prp name="id" type="S" value="{2E1E6908-C064-442C-BF8C-DD94261A928E}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{2E1E6908-C064-442C-BF8C-DD94261A928E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{30501691-969F-4007-923F-BA4459E51E6A}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

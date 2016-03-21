@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="p2testcase2end">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCase2End.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B6CC0331-4B47-4336-8A50-B0F34225536D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="p2testcase2middle">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCase2Middle.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D8A3CC0F-B8A0-4FA1-BF74-D03ED6852860}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="p2testcase2start">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCase2Start.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6E28FA84-649B-43AC-9DEB-2A10DB00226B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="p2testcaseend">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCaseEnd.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E6577801-8531-457A-B32B-A885B8910870}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="p2testcasemiddle">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCaseMiddle.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{54D5E9C0-881C-47EA-854D-78FF919C8F3A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="p2testcasestart">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="P2TestCaseStart.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D83BDA8D-E039-4FA5-BF6D-926D0001B387}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

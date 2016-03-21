@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{40301E4B-F58F-400E-AEFB-26308747E06E}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Check if Stop Execution operation has already been called to avoid recursion" />
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data Description="If its any error other than &quot;Stop Execution&quot;, call &quot;Stop Execution&quot;" DescriptionEdited="True" LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+					<Root Type="1" Operator="1">
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.GeneralEvents_OnLogError.Parameters.LogParams.MessageText" />
+						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="Stop Execution" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
+						<Data Description="Stops running the project tests and posts the specified error string to the log.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
+								<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Stop Execution" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{907BF723-A0B9-4ACD-AF53-727523E7830F}" />
+	<Parameters Key="{D3A233C3-1763-41B3-836D-F8E067F141D3}">
+		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+		<Parameter1 Name="LogParams" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

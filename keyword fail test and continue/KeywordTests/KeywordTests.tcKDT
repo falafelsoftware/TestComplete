@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="generalevents_onlogerror">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="GeneralEvents_OnLogError.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{DA060AB2-978F-481A-A5BD-D2A642637BB6}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="testa">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestA.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{9C258797-F83A-4873-9FEF-7087EFF47BF1}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="testb">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestB.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{DC721EEA-0852-4438-A99D-1B2726256266}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="testc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestC.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{FA9DE4C5-1E59-4F6D-9D35-01E000882FA7}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

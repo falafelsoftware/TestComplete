@@ -27,7 +27,11 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{B3B6A8B8-70FB-4614-A6C3-9D101557CDE9}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{aeffdfb4-13c6-4178-a6f9-1337c3968de0}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace"/>
 			</Node>
@@ -38,9 +42,46 @@
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
 			</Node>
-			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}"/>
+			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{656d8e46-0507-43db-bc97-b7f93eeb8f31}">
+						<Prp name="bottom" type="I" value="2"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{69a22b32-188a-4d2a-beba-b82a04f5fc15}">
+						<Prp name="bottom" type="I" value="5"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{89c32518-c2b0-4638-bac4-9e3c38c874c4}">
+						<Prp name="bottom" type="I" value="68"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{a575ddc2-c8bb-4b51-8121-078b8f9405c7}">
+						<Prp name="bottom" type="I" value="24"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{a784b51c-bf29-445c-ae5c-96bbf80af2cf}">
+						<Prp name="bottom" type="I" value="4"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{ae176188-b424-4cd3-bb20-36490ca83ca6}">
+						<Prp name="bottom" type="I" value="48"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+				</Node>
+			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
-				<Node name="testcomplete-examples"/>
+				<Node name="testcomplete-examples">
+					<Node name="emailresults">
+						<Node name="advanced"/>
+					</Node>
+				</Node>
 				<Node name="testcomplete-examples logs"/>
 			</Node>
 		</Node>

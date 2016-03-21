@@ -1,4 +1,4 @@
-//USEUNIT ExtendsUnit
+﻿//USEUNIT _extends
 //USEUNIT TestCompleteMemberUnit
 var TestCompleteBase = (function () {
     function TestCompleteBase(testCompleteObject) {

@@ -39,7 +39,7 @@
 				<Prp name="relpath" type="S" value="..\keyword fail test and continue\FailTestItemAndContinue.mds.tcLS"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="default project" type="S" value="{D3902E2F-2E38-45F4-9281-6F9BCA84920B}"/>
+				<Prp name="default project" type="S" value="{0B5AAD3B-3A2B-45F6-B6BC-E9D54AB1473C}"/>
 			</Node>
 			<Node name="{28b14177-f132-4327-be39-7b70b6e35c92}">
 				<Prp name="relpath" type="S" value="..\keyword variables\VariablesTesting.mds.tcLS"/>

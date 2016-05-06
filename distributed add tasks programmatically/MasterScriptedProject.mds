@@ -281,6 +281,10 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{5b70169c-3929-4b5f-bc46-0fd984becf45}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
 			<Node name="{6ba39d6a-88c9-49b1-a310-a31f46136dfb}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
@@ -319,8 +323,10 @@
 				<Prp name="col7type" type="I" value="2"/>
 				<Prp name="col8enabled" type="B" value="-1"/>
 				<Prp name="col8type" type="I" value="2"/>
-				<Prp name="colcount" type="I" value="9"/>
-				<Prp name="colindex" type="I" value="8"/>
+				<Prp name="col9enabled" type="B" value="-1"/>
+				<Prp name="col9type" type="I" value="4"/>
+				<Prp name="colcount" type="I" value="10"/>
+				<Prp name="colindex" type="I" value="9"/>
 				<Prp name="rowcount" type="I" value="8"/>
 				<Prp name="rowindex" type="I" value="7"/>
 				<Prp name="type" type="I" value="6"/>
@@ -396,6 +402,14 @@
 				<Prp name="val8x5" type="I" value="320"/>
 				<Prp name="val8x6" type="I" value="640"/>
 				<Prp name="val8x7" type="I" value="1280"/>
+				<Prp name="val9x0" type="D" value="1"/>
+				<Prp name="val9x1" type="D" value="1"/>
+				<Prp name="val9x2" type="D" value="1"/>
+				<Prp name="val9x3" type="D" value="1"/>
+				<Prp name="val9x4" type="D" value="1"/>
+				<Prp name="val9x5" type="D" value="1"/>
+				<Prp name="val9x6" type="D" value="1"/>
+				<Prp name="val9x7" type="D" value="1"/>
 			</Node>
 			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
 				<Prp name="type" type="I" value="1"/>
@@ -1184,7 +1198,7 @@
 				<Prp name="type" type="I" value="6"/>
 			</Node>
 			<Prp name="key" type="S" value="{E1E4D421-38D4-4380-8B7E-1A2113405B73}"/>
-			<Prp name="settingsversion" type="S" value="11.20"/>
+			<Prp name="settingsversion" type="S" value="11.30"/>
 		</Node>
 		<Node name="test data">
 			<Node name="child list"/>
@@ -1194,7 +1208,7 @@
 			<Node name="datav3">
 				<Node name="var0">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="460061006C006100660065006C00"/>
+						<Prp name="strvalue" type="H" value="79006F00750072006C006F00670069006E00"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
@@ -1204,7 +1218,7 @@
 				</Node>
 				<Node name="var1">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="38003900360031003100330044003300460034004400380046003300460036004500430039003900320037004600360046003000410043003400440034004400390045003600340031004100460038003400430038003200440033004600430036003900440046004600450031003200330034004100440045003000310030003300370041004500"/>
+						<Prp name="strvalue" type="H" value="3800390036003100360033004400310046003400440038004300420046003100380043003900420041003700390036003500410046004200430042003100390042003600460042004400330042004600"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>

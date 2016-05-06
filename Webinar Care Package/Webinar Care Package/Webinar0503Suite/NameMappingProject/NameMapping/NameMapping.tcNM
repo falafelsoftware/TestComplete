@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="5">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{27EAFED7-733B-4959-9815-813FD32DE96E}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+					<Property Name="Id">
+						<Value PropertyType="0" Value="-1" Type="0" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="OrdersProcess" Key="{C6E9CA44-09E5-48D1-9D32-40B67633A9A3}" Description="The process running in memory" ParallelWalk="True">
+						<TypeInfo Item0="{B2CE57B5-4A03-4245-9244-5E0C4856290A}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Orders" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="OrderForm" Key="{8DA563CA-CC10-4E2E-BB81-48C63D3FDF8A}" ParallelWalk="True">
+								<TypeInfo Item0="{D40730D1-9B03-4721-954F-FA39F707E835}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="OrderForm" Type="5" />
+									</Property>
+									<RequiredChildren Child0="GroupBoxAroundFields" />
+								</Properties>
+								<Children>
+									<Child Name="GroupBoxAroundFields" Key="{0EAFA615-15DF-428A-B22E-FDA505715A72}" ParallelWalk="True">
+										<TypeInfo Item0="{BF2B961B-41FD-46FE-9AB0-9CF125C6F0AF}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="Group" Type="5" />
+											</Property>
+											<RequiredChildren Child0="Price" Child1="Quantity" />
+										</Properties>
+										<Children>
+											<Child Name="TextBoxCustomer" Key="{D6093899-E10D-4406-9733-3FD7DA576623}" ParallelWalk="True">
+												<TypeInfo Item0="{A08D5254-43DC-4AB6-9299-21A05972B2C9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Customer" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="TextBoxStreet" Key="{2BA3BBEE-D7A8-4E4D-A99A-3C3635180CC3}" ParallelWalk="True">
+												<TypeInfo Item0="{A08D5254-43DC-4AB6-9299-21A05972B2C9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Street" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="TextBoxState" Key="{368DB71E-567B-4843-A4D7-DC2F309B84BD}" ParallelWalk="True">
+												<TypeInfo Item0="{A08D5254-43DC-4AB6-9299-21A05972B2C9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="State" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="TextBoxCity" Key="{5018F5CF-36CF-4B30-B2CD-D103F4B7147B}" ParallelWalk="True">
+												<TypeInfo Item0="{A08D5254-43DC-4AB6-9299-21A05972B2C9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="City" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="TextBoxZip" Key="{2483294B-B096-4587-B6EA-8D7B0DCCFBA6}" ParallelWalk="True">
+												<TypeInfo Item0="{A08D5254-43DC-4AB6-9299-21A05972B2C9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Zip" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="MasterCard" Key="{E42C1D43-B260-4F08-9F35-0956E59ACFE8}" ParallelWalk="True">
+												<TypeInfo Item0="{9DCE05B5-8BF3-4A5F-A121-1E27846A1C89}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="MasterCard" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Visa" Key="{C86DD8B7-0417-48B9-B8E7-4FFE0233447C}" ParallelWalk="True">
+												<TypeInfo Item0="{9DCE05B5-8BF3-4A5F-A121-1E27846A1C89}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Visa" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="AE" Key="{3229A85A-6566-4C23-B13F-C20051251B0E}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{9DCE05B5-8BF3-4A5F-A121-1E27846A1C89}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="AE" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ProductNames" Key="{CC520FB0-0913-43F6-AC5D-33016C7FE77C}" ParallelWalk="True">
+												<TypeInfo Item0="{0591E7A3-D61F-416F-8887-42258600EA91}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="ProductNames" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Quantity" Key="{C9E06A45-764D-4CD3-B1A4-3259065A759A}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Quantity" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UpDownEdit" Key="{D1BD5C6B-1F32-422C-8B6A-2AE806A05629}" ParallelWalk="True">
+														<TypeInfo Item0="{596CA61E-0A2A-47D6-9103-1874E184D307}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.UpDownBase+UpDownEdit" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Price" Key="{F0B00F22-F97D-4FF0-B63A-55FEA3A07571}" ParallelWalk="True">
+												<TypeInfo Item0="{596CA61E-0A2A-47D6-9103-1874E184D307}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Price" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Discount" Key="{1A024363-2D95-4A5C-B337-7ED296E8ECEC}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{596CA61E-0A2A-47D6-9103-1874E184D307}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Discount" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="groupBox1" Key="{A9DF6C73-FE03-4542-A70C-E49B08EEC230}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="groupBox1" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Total" Key="{B65E43B1-C7FF-42CE-B1E0-95E41CED02CE}" ParallelWalk="True">
+														<TypeInfo Item0="{596CA61E-0A2A-47D6-9103-1874E184D307}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value PropertyType="0" Value="Total" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Date" Key="{1DB2E581-5F31-4349-8EB5-0BB11694DBFC}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{8D7461DB-2580-4E30-9857-55A5CBF9E7E6}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Date" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="CardNo" Key="{0A4EC8DA-5AA7-4604-9224-7DA7857CE6CA}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{596CA61E-0A2A-47D6-9103-1874E184D307}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="CardNo" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ExpDate" Key="{3BB76825-9EDF-4BDC-8865-538B6929FE43}" ParallelWalk="True">
+												<TypeInfo Item0="{8D7461DB-2580-4E30-9857-55A5CBF9E7E6}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="ExpDate" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonCancel" Key="{F822D2D0-FF11-402D-8949-734E7DB9C331}" ParallelWalk="True">
+										<TypeInfo Item0="{BDD9D393-914B-4C19-9B20-A633E4A6542C}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="ButtonCancel" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{38E1823B-44D1-40B1-BE45-E77C0C35FF3D}" ParallelWalk="True">
+						<TypeInfo Item0="{3228CA5C-6679-4C8F-B664-DD7395FCC132}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSmartbearCom" Key="{12532E42-5415-4FF9-AC5C-2DD434EB1ADC}" ParallelWalk="True">
+								<TypeInfo Item0="{0EB1FD13-C47D-4FB1-97C3-F99C9964A677}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{49455220-B0A3-4665-A4EB-DDAE9290805B}" ExtendedFind="True" ParallelWalk="True">
+										<TypeInfo Item0="{03639BD4-4E83-4948-BCFD-A1B5EB445B78}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelMain" Key="{4D43DC34-8095-405D-B8A0-76E11DFE4BA6}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{03639BD4-4E83-4948-BCFD-A1B5EB445B78}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="main" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{1B425662-F7CF-450A-A43A-384AD6783D63}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{03639BD4-4E83-4948-BCFD-A1B5EB445B78}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{08BFE7AC-C9D9-4165-A80A-0F10D5C4302B}" ParallelWalk="True">
+																<TypeInfo Item0="{03639BD4-4E83-4948-BCFD-A1B5EB445B78}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{F6AFF5FD-BFB8-4184-9BBD-9AC86E72FD0B}" ParallelWalk="True">
+																		<TypeInfo Item0="{03639BD4-4E83-4948-BCFD-A1B5EB445B78}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="OrderForm" Owner="{8DA563CA-CC10-4E2E-BB81-48C63D3FDF8A}">
+			<Child Name="ButtonCancel" Owner="{F822D2D0-FF11-402D-8949-734E7DB9C331}" />
+			<Child Name="AE" Owner="{3229A85A-6566-4C23-B13F-C20051251B0E}" />
+			<Child Name="CardNo" Owner="{0A4EC8DA-5AA7-4604-9224-7DA7857CE6CA}" />
+			<Child Name="Date" Owner="{1DB2E581-5F31-4349-8EB5-0BB11694DBFC}" />
+			<Child Name="Discount" Owner="{1A024363-2D95-4A5C-B337-7ED296E8ECEC}" />
+			<Child Name="ExpDate" Owner="{3BB76825-9EDF-4BDC-8865-538B6929FE43}" />
+			<Child Name="MasterCard" Owner="{E42C1D43-B260-4F08-9F35-0956E59ACFE8}" />
+			<Child Name="Price" Owner="{F0B00F22-F97D-4FF0-B63A-55FEA3A07571}" />
+			<Child Name="ProductNames" Owner="{CC520FB0-0913-43F6-AC5D-33016C7FE77C}" />
+			<Child Name="Quantity" Owner="{C9E06A45-764D-4CD3-B1A4-3259065A759A}" />
+			<Child Name="TextBoxCity" Owner="{5018F5CF-36CF-4B30-B2CD-D103F4B7147B}" />
+			<Child Name="TextBoxCustomer" Owner="{D6093899-E10D-4406-9733-3FD7DA576623}" />
+			<Child Name="TextBoxState" Owner="{368DB71E-567B-4843-A4D7-DC2F309B84BD}" />
+			<Child Name="TextBoxStreet" Owner="{2BA3BBEE-D7A8-4E4D-A99A-3C3635180CC3}" />
+			<Child Name="TextBoxZip" Owner="{2483294B-B096-4587-B6EA-8D7B0DCCFBA6}" />
+			<Child Name="Visa" Owner="{C86DD8B7-0417-48B9-B8E7-4FFE0233447C}" />
+		</Child>
+		<Child Name="browser" Owner="{38E1823B-44D1-40B1-BE45-E77C0C35FF3D}" />
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="0" />
+</Root>

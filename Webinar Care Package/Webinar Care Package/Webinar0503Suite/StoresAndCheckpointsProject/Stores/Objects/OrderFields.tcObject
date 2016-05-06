@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children">
+					<Node name="child_0">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="My Name"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Customer&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_9">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="123 Esy St"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="9"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Street&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_15">
+						<Node name="children">
+							<Node name="child_1">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="wText"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value="2"/>
+										<Prp name="category" type="S" value="Extended"/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="3"/>
+								<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="WinFormsObject(&quot;UpDownEdit&quot;, &quot;&quot;)"/>
+								<Prp name="group name" type="S" value="wTextObjects"/>
+							</Node>
+							<Node name="child_0">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_2">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="2"/>
+										<Prp name="name" type="S" value="WndCaption"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value=""/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="Enabled"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_1">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="1"/>
+										<Prp name="name" type="S" value="Visible"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="1"/>
+								<Prp name="class name" type="S" value="WindowsForms10.Window.8.app.0.33c0d9d"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="WinFormsObject(&quot;UpDownButtons&quot;, &quot;&quot;)"/>
+								<Prp name="group name" type="S" value=""/>
+							</Node>
+						</Node>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value=""/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.Window.8.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="15"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Quantity&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_4">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="424242424242"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="4"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;CardNo&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_7">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="CA"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="7"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;State&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_3">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="Visa"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="VisibleOnScreen"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="2"/>
+						<Prp name="class name" type="S" value="WindowsForms10.BUTTON.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="3"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Visa&quot;)"/>
+						<Prp name="group name" type="S" value="TextGroups"/>
+					</Node>
+					<Node name="child_12">
+						<Node name="children">
+							<Node name="child_1">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_2">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="2"/>
+										<Prp name="name" type="S" value="WndCaption"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value="Total:"/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="Enabled"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_1">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="1"/>
+										<Prp name="name" type="S" value="Visible"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="1"/>
+								<Prp name="class name" type="S" value="WindowsForms10.STATIC.app.0.33c0d9d"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="WinFormsObject(&quot;label5&quot;)"/>
+								<Prp name="group name" type="S" value=""/>
+							</Node>
+							<Node name="child_0">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="wText"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value="200"/>
+										<Prp name="category" type="S" value="Extended"/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="3"/>
+								<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="WinFormsObject(&quot;Total&quot;)"/>
+								<Prp name="group name" type="S" value="wTextObjects"/>
+							</Node>
+						</Node>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value=""/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.Window.8.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="12"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;groupBox1&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_14">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="$200"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="14"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Price&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_11">
+						<Node name="children">
+							<Node name="child_0">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_2">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="2"/>
+										<Prp name="name" type="S" value="WndCaption"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value=""/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="Enabled"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_1">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="1"/>
+										<Prp name="name" type="S" value="Visible"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_3">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="1"/>
+										<Prp name="index" type="I" value="3"/>
+										<Prp name="name" type="S" value="wPosition"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="L" value="0"/>
+										<Prp name="category" type="S" value="Extended"/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="1"/>
+								<Prp name="class name" type="S" value="msctls_updown32"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Window(&quot;msctls_updown32&quot;, &quot;&quot;, 1)"/>
+								<Prp name="group name" type="S" value=""/>
+							</Node>
+						</Node>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="5"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="wDate"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="4/6/2005"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_4">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="5"/>
+								<Prp name="index" type="I" value="4"/>
+								<Prp name="name" type="S" value="wTime"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="12:00:00 AM"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_3">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="3"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value=""/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.SysDateTimePick32.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="11"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Date&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_6">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="91235"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="6"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Zip&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_2">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="MasterCard"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="VisibleOnScreen"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="2"/>
+						<Prp name="class name" type="S" value="WindowsForms10.BUTTON.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;MasterCard&quot;)"/>
+						<Prp name="group name" type="S" value="TextGroups"/>
+					</Node>
+					<Node name="child_13">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="1"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="13"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;Discount&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_16">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="wItemList"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="H" value="4D0079004D006F006E00650079000D000A00460061006D0069006C00790041006C00620075006D000D000A00530063007200650065006E0053006100760065007200"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_4">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="4"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="MyMoney"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_3">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="3"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value=""/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.COMBOBOX.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="16"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;ProductNames&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_5">
+						<Node name="children">
+							<Node name="child_0">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_2">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="2"/>
+										<Prp name="index" type="I" value="2"/>
+										<Prp name="name" type="S" value="WndCaption"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="S" value=""/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+									<Node name="property_0">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="name" type="S" value="Enabled"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_1">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="1"/>
+										<Prp name="name" type="S" value="Visible"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_3">
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="type" type="I" value="1"/>
+										<Prp name="index" type="I" value="3"/>
+										<Prp name="name" type="S" value="wPosition"/>
+										<Prp name="basic" type="B" value="-1"/>
+										<Prp name="value" type="L" value="0"/>
+										<Prp name="category" type="S" value="Extended"/>
+										<Prp name="kind" type="I" value="3"/>
+									</Node>
+								</Node>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="objecttype" type="I" value="1"/>
+								<Prp name="class name" type="S" value="msctls_updown32"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Window(&quot;msctls_updown32&quot;, &quot;&quot;, 1)"/>
+								<Prp name="group name" type="S" value=""/>
+							</Node>
+						</Node>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="5"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="wDate"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="4/6/2016"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_4">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="5"/>
+								<Prp name="index" type="I" value="4"/>
+								<Prp name="name" type="S" value="wTime"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="12:00:00 AM"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_3">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="3"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value=""/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.SysDateTimePick32.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="5"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;ExpDate&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_8">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="wText"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="San Francisco"/>
+								<Prp name="category" type="S" value="Extended"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="3"/>
+						<Prp name="class name" type="S" value="WindowsForms10.EDIT.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="8"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;City&quot;)"/>
+						<Prp name="group name" type="S" value="wTextObjects"/>
+					</Node>
+					<Node name="child_10">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_2">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="2"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="Date:"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="1"/>
+						<Prp name="class name" type="S" value="WindowsForms10.STATIC.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="10"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;label6&quot;)"/>
+						<Prp name="group name" type="S" value=""/>
+					</Node>
+					<Node name="child_1">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_1">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="2"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="name" type="S" value="WndCaption"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="S" value="American Express"/>
+								<Prp name="kind" type="I" value="3"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="name" type="S" value="VisibleOnScreen"/>
+								<Prp name="basic" type="B" value="-1"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="objecttype" type="I" value="2"/>
+						<Prp name="class name" type="S" value="WindowsForms10.BUTTON.app.0.33c0d9d"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="name" type="S" value="WinFormsObject(&quot;AE&quot;)"/>
+						<Prp name="group name" type="S" value="TextGroups"/>
+					</Node>
+				</Node>
+				<Node name="properties">
+					<Node name="property_0">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="name" type="S" value="WndCaption"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="kind" type="I" value="3"/>
+					</Node>
+				</Node>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="objecttype" type="I" value="1"/>
+				<Prp name="class name" type="S" value="WindowsForms10.Window.8.app.0.33c0d9d"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="WinFormsObject(&quot;Group&quot;)"/>
+				<Prp name="group name" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="mode" type="I" value="0"/>
+		<Prp name="objecttype" type="I" value="0"/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="version" type="I" value="1"/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+	</Node>
+</Nodes>

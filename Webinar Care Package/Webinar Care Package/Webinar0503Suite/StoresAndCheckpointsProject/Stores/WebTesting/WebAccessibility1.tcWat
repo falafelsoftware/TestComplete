@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="page">
+			<Prp name="moniker" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://smartbear.com/product/testcomplete/web-module/overview/&quot;)"/>
+		</Node>
+		<Node name="settings"/>
+		<Node name="tasks">
+			<Prp name="task1" type="S" value="{9436FEE6-DAF4-48C8-B220-642EEBF0982E}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

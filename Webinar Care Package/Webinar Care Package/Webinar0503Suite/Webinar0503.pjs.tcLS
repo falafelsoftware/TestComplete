@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{22dac217-f359-4a49-ae9f-c8d9d080f810}">
+				<Prp name="relpath" type="S" value="UsesNameMapping\UsesNameMapping.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{CD7E9678-E384-45B6-88D9-62A85902D18B}"/>
+			</Node>
+			<Node name="{46961e6f-97bc-49d4-b8f0-a6cb8a6c0e89}">
+				<Prp name="relpath" type="S" value="KeywordOperations\KeywordOperationsProject.mds.tcLS"/>
+			</Node>
+			<Node name="{6301761b-dc70-49bb-a038-84c536e333bf}">
+				<Prp name="relpath" type="S" value="KeywordOperations\KeywordOperations.mds.tcLS"/>
+			</Node>
+			<Node name="{6f508c9d-3709-403b-a0bc-36229528bfd9}">
+				<Prp name="relpath" type="S" value="TestItemsProjevt\ErrorHandlingProject.mds.tcLS"/>
+			</Node>
+			<Node name="{7a3209bf-a42a-46ee-9779-48581bebac39}">
+				<Prp name="relpath" type="S" value="GettingStarted\GettingStarted.mds.tcLS"/>
+			</Node>
+			<Node name="{7ca86347-588f-450a-bfd1-5abd249b6266}">
+				<Prp name="relpath" type="S" value="LoggingProject\LoggingProject.mds.tcLS"/>
+			</Node>
+			<Node name="{a7305620-1ea1-46f0-b68f-5f9131a69f48}">
+				<Prp name="relpath" type="S" value="ErrorHandlingProject\ErrorHandlingProject.mds.tcLS"/>
+			</Node>
+			<Node name="{c4b81380-577c-4639-a0f8-1f5012577ea8}">
+				<Prp name="relpath" type="S" value="StoresAndCheckpointsProject\StoresAndCheckpointsProject.mds.tcLS"/>
+			</Node>
+			<Node name="{cd7e9678-e384-45b6-88d9-62a85902d18b}">
+				<Prp name="relpath" type="S" value="NameMappingProject\NameMappingProject.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{6A0A9CCA-07DE-49B4-ACE4-294AFB807245}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

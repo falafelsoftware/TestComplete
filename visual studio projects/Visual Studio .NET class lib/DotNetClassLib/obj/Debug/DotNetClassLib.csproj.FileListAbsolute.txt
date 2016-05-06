@@ -1,0 +1,5 @@
+C:\Users\noel\Documents\testcomplete\visual studio projects\Visual Studio .NET class lib\DotNetClassLib\bin\Debug\DotNetClassLib.dll
+C:\Users\noel\Documents\testcomplete\visual studio projects\Visual Studio .NET class lib\DotNetClassLib\bin\Debug\DotNetClassLib.pdb
+C:\Users\noel\Documents\testcomplete\visual studio projects\Visual Studio .NET class lib\DotNetClassLib\obj\Debug\DotNetClassLib.csprojResolveAssemblyReference.cache
+C:\Users\noel\Documents\testcomplete\visual studio projects\Visual Studio .NET class lib\DotNetClassLib\obj\Debug\DotNetClassLib.dll
+C:\Users\noel\Documents\testcomplete\visual studio projects\Visual Studio .NET class lib\DotNetClassLib\obj\Debug\DotNetClassLib.pdb

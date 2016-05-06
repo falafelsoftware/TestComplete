@@ -1188,7 +1188,7 @@
 				<Prp name="type" type="I" value="6"/>
 			</Node>
 			<Prp name="key" type="S" value="{FFA462A4-D82D-42C5-AABF-AA5A5EC192B3}"/>
-			<Prp name="settingsversion" type="S" value="11.30"/>
+			<Prp name="settingsversion" type="S" value="11.31"/>
 		</Node>
 		<Node name="test data">
 			<Node name="child list"/>
@@ -1208,7 +1208,7 @@
 				</Node>
 				<Node name="var1">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="3800390036003100360033004400310046003400440038004300420046003100380043003900420041003700390036003500410046004200430042003100390042003600460042004400330042004600"/>
+						<Prp name="strvalue" type="H" value="3800390036003100390033004400310046003400440038004100420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320033004300300041003600440033004600"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>

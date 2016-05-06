@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{B8CCA5B1-DCA6-49B2-9252-045CCDBCAFC8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Sys.Browser(&quot;chrome&quot;)" Data="61717A6970000000010000003604000078019592ED4F52511CC7BF6DFD016D3D586B96EB4DBDE86D5A6BA6E1039A5C5072B6849A50FA8A37B974AD5AE5726EA53DACD5963143841AB29E2C576B9ACC862D42F18146845C58A5666925E39210DC4B07846B1A6BEB6CDF73CFD9BD9FCF79B83F0195B912F19649FA6D24AB1259810C32222DF17E61B2D047A351A40A13FC81F16927BC4C08B3210E112EF577CBD9D79E2E1C3366A152B30615375743FC6A12025B14258361A83F46F03392DAC3711CDACCC721D7A441DEBE2E1E99662DC41A2584360E79C411F328ED617C0DFDEDB86F6BC661ED7A1C6A4FE32327E3CAD63488FAECC8276CD251F3368C5FECA2E31B33892A6D3AE137F05119B6A3ED651DF4E606D47556A37828BCC4D1F999E5EFAD7BEC06AA3A36F239FBA40833F6176074B5F0ABABE13369717B641805640FC97DC846C33C7FB54F09852E3D1EA56E131C631604AE9421D02C22290173711F7C662314F6489C8F3904431C428933343E2D458C53EA37437E8182DFFA1881168A24C6271C77EBD1E80A2DD90393F8172D3D321CD16740A1D98ADC8ACB981E342170494222E61DCCA326D4DB8310583808DE9058A3984FACAFB39CC6D13B5B203D7900BB8BFBA1D67AC018CF2C3AAECBE07AFF0E0253187B4C1164F793730CB07C4D8D7CEA85E2D60E648B0DC8A54651287542DDF10113563366079FA367988644EFC54EED14B20CDFB1EB2103D54090BF3F966351D3740E399415F9A50E1495D310EEF7A0A0CC43E634F22434F68A69E48A68E494B8C9D80D17BDC8C76AD839EE8744E680B07C9CF09E385F285DC653C42372E35ED71CBFF69FF5EFF6CC43553FC1F3CBD7A70E7AF1ACD797924D7A5896C38085C1B5D6199C689842EDA9499C6FF98207DD7398F345FEC9261DFFF3FC0D43C32CC6" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Inside the OnLogError event" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the specified Window object." Action="Close">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Sys.Browser(&quot;chrome&quot;).BrowserWindow(0);" />
+				</Data>
+			</Operation>
+			<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+				<Data Description="Executes the specified code snippet." LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" CodeExpression="KeywordTests.GeneralEvents_OnLogError.Parameters.LogParams.Locked = true" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{A5EE27B8-671D-4CE3-AE13-826D5724614D}" />
+	<Parameters Key="{F5D90B2E-D2B4-4571-A72B-E60219C457E8}">
+		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+		<Parameter1 Name="LogParams" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

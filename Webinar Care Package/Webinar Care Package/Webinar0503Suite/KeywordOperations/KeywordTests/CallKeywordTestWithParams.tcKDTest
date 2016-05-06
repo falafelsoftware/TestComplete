@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{4BAB6B2D-C5DF-44BB-B443-E015A14D29EF}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="TestActions">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Title" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="This is the Title parameter" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="TestActions">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Title" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="This is the second run of this test" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{261E74A7-0CC2-4C5D-92CC-951D930C206C}" />
+	<Parameters Key="{52323A73-5248-4FE7-AB4C-15F519C09E3B}" />
+</Root>

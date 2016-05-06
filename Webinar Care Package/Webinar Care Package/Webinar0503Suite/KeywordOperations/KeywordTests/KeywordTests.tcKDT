@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="callkeywordtestwithparams">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CallKeywordTestWithParams.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{F34A6819-9FBD-47FA-96E8-4A4CC8F5B4A3}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="loggingfoldersandattributes">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="LoggingFoldersAndAttributes.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{34C54B20-C7B9-40B4-BD59-A497696D1638}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="orderentry">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OrderEntry.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{3F3307C7-0627-4730-959F-3AA3D3528B28}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="testactions">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestActions.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{B9B3B0C7-15A1-4A91-A0D3-BF7087CA7A12}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="waitforvisible">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WaitForVisible.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{3C10E6FD-8196-46C6-BE84-27E41B0E140E}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="logging">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{34c54b20-c7b9-40b4-bd59-a497696d1638}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Logging"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="test actions">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{3c10e6fd-8196-46c6-be84-27e41b0e140e}" type="S" value=""/>
+					<Prp name="{3f3307c7-0627-4730-959f-3aa3d3528b28}" type="S" value=""/>
+					<Prp name="{b9b3b0c7-15a1-4a91-a0d3-bf7087ca7a12}" type="S" value=""/>
+					<Prp name="{f34a6819-9fbd-47fa-96e8-4a4cc8f5b4a3}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Test Actions"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

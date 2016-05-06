@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{E68C4F89-2778-4095-9A51-3D577305F3DC}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="projectvariables">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProjectVariables\ProjectVariables.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{615424A9-E153-45FD-B28F-1A2ECEFE35F5}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="testswitherrorsproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestsWithErrorsProject\TestsWithErrorsProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{219C8730-A21C-4B66-8F44-357444C9EBC5}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="testswithnoerrors">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestsWithNoErrors\TestsWithNoErrors.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{9E7A1EF4-74E9-4768-ADF1-CA4F7B4D0C6A}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			<Prp name="name" type="S" value=""/>
+		</Node>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{21FF3922-D04C-48C3-8DE5-F7270CBF5E03}"/>
+			<Prp name="settingsversion" type="S" value="11.31"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item idx=0000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{219C8730-A21C-4B66-8F44-357444C9EBC5}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{9E7A1EF4-74E9-4768-ADF1-CA4F7B4D0C6A}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0002">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{615424A9-E153-45FD-B28F-1A2ECEFE35F5}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{A7E4B8F8-DE8F-4640-9CF9-8555A1AAD6E4}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{52AB20E3-10F9-4A4F-83EB-D23C599FBD6D}"/>
+		</Node>
+		<Prp name="key" type="S" value="{E491753B-7697-45EE-99F6-BF3BB170CBD0}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

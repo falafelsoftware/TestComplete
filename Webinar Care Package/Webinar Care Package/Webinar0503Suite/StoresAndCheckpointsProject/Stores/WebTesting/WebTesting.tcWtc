@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="smartbearhomepageimages">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SmartBearHomePageImages.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{F697FA56-1BB6-43A8-A0F8-46C4D10AA385}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webaccessibility1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebAccessibility1.tcWat"/>
+				</Node>
+				<Prp name="key" type="S" value="{442B7709-18C6-4D87-8513-161F038DB698}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}"/>
+				<Prp name="typename" type="S" value="Web Accessibility"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

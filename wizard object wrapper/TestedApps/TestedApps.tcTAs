@@ -25,11 +25,11 @@
 					<Node name="runmodeparams">
 						<Node name="simple">
 							<Prp name="filename" type="S" value="CSWizardDemo.exe"/>
-							<Prp name="filepath" type="S" value="C:\Users\noel\Documents\testcomplete\OOP\Wrapper Objects\AUT\CSWizardDemo\CSWizardDemo\bin\Debug\"/>
+							<Prp name="filepath" type="S" value="C:\Users\noel\Documents\testcomplete\visual studio projects\CSWizardDemo\CSWizardDemo\bin\Debug\"/>
 						</Node>
 						<Prp name="activerunmode" type="S" value="Simple"/>
 					</Node>
-					<Prp name="node name" type="S" value="CSWizardDemo"/>
+					<Prp name="node name" type="S" value="Wizard"/>
 					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
 					<Prp name="userchangename" type="B" value="-1"/>
 				</Node>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children"/>
+				<Node name="properties">
+					<Node name="property_2">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="name" type="S" value="WndCaption"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="value" type="S" value="Orders - Untitled"/>
+						<Prp name="kind" type="I" value="3"/>
+					</Node>
+					<Node name="property_0">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="name" type="S" value="Height"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="value" type="L" value="520"/>
+						<Prp name="kind" type="I" value="0"/>
+					</Node>
+					<Node name="property_1">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="name" type="S" value="Width"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="value" type="L" value="669"/>
+						<Prp name="kind" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="class name" type="S" value="WindowsForms10.Window.8.app.0.33c0d9d"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="group name" type="S" value=""/>
+				<Prp name="name" type="S" value="WinFormsObject(&quot;MainForm&quot;)"/>
+				<Prp name="objecttype" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="mode" type="I" value="6"/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="objecttype" type="I" value="0"/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

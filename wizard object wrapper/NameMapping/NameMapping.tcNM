@@ -6,72 +6,96 @@
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Children>
 			<Child Name="Sys" Key="{0585BA01-F665-414A-BA8E-290CFC872362}" ParallelWalk="True">
-				<TypeInfo Item0="{27F0017A-BC91-47BA-B0AA-82933831BACE}" />
 				<Properties>
 					<Property Name="Name">
 						<Value PropertyType="0" Value="Sys" Type="5" />
 					</Property>
 				</Properties>
 				<Children>
-					<Child Name="CSWizardDemo" Key="{93EAA5A1-52B2-40FA-B7E4-BA2A084F47C1}" ParallelWalk="True">
+					<Child Name="wizard" Key="{5371AE4F-E1E3-4416-BAD1-60FC061FAC80}" ParallelWalk="True">
 						<Properties>
 							<Property Name="ProcessName">
 								<Value PropertyType="0" Value="CSWizardDemo" Type="5" />
 							</Property>
 						</Properties>
 						<Children>
-							<Child Name="MyWizardClass" Key="{685ABC15-8398-47C6-ABE9-55317F88F25B}" ParallelWalk="True">
+							<Child Name="MyWizardClass" Key="{13DB4C11-F55E-45F4-9AA9-8C19323BA8E9}" ParallelWalk="True">
 								<Properties>
-									<Property Name="NativeClrObject.Name">
+									<Property Name="WinFormsControlName">
 										<Value PropertyType="0" Value="MyWizardClass" Type="5" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="panel2" Key="{D3C5CC90-DC8F-44F9-87D4-52A245F88470}" ParallelWalk="True">
+									<Child Name="panel2" Key="{56035482-A8F6-4CA9-8FB5-EBBEF85C4489}" ParallelWalk="True">
 										<Properties>
-											<Property Name="NativeClrObject.Name">
+											<Property Name="WinFormsControlName">
 												<Value PropertyType="0" Value="panel2" Type="5" />
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="tabControl1" Key="{C97601E6-E42B-4951-AE5E-8712F8420924}" ParallelWalk="True">
+											<Child Name="pages" Key="{7DB2AC6F-68D0-45F1-96BF-282E62934439}" ParallelWalk="True">
 												<Properties>
-													<Property Name="NativeClrObject.Name">
+													<Property Name="WinFormsControlName">
 														<Value PropertyType="0" Value="tabControl1" Type="5" />
 													</Property>
 												</Properties>
 												<Children>
-													<Child Name="tabPage1" Key="{76FC953A-DEAA-4A1A-A90C-5CB6AF3356C2}" ParallelWalk="True">
+													<Child Name="one" Key="{D36337A3-1EB9-48C3-B908-E89E09043241}" ParallelWalk="True">
+														<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 														<Properties>
-															<Property Name="ClrFullClassName">
-																<Value PropertyType="0" Value="System.Windows.Forms.TabPage" Type="5" />
-															</Property>
-															<Property Name="Visible">
-																<Value PropertyType="0" Value="True" Type="6" />
+															<Property Name="WinFormsControlName">
+																<Value PropertyType="0" Value="tabPage1" Type="5" />
 															</Property>
 														</Properties>
 														<Children>
-															<Child Name="monthCalendar1" Key="{53D25849-4965-485E-BF02-87465B15DB8F}" ParallelWalk="True">
-																<TypeInfo Item0="{A6BE4E94-EE4D-4A0B-AB06-FEDCB589D7E3}" />
+															<Child Name="calendar" Key="{5050B0A9-9272-4995-ACB7-CC0483EA2668}" ParallelWalk="True">
+																<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 																<Properties>
-																	<Property Name="NativeClrObject.Name">
+																	<Property Name="WinFormsControlName">
 																		<Value PropertyType="0" Value="monthCalendar1" Type="5" />
 																	</Property>
 																</Properties>
 															</Child>
-															<Child Name="dateTimePicker1" Key="{297CFD15-4BAF-42F4-AF9B-B8D8A5B93704}" ParallelWalk="True">
-																<TypeInfo Item0="{D35B17E2-73C4-4035-8A41-8015810FF18E}" />
+														</Children>
+													</Child>
+													<Child Name="two" Key="{E6CE2EC2-69C8-4A7E-AD4F-91408377DF90}" ParallelWalk="True">
+														<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value PropertyType="0" Value="tabPage2" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="datepicker" Key="{FF7FEA95-A0DB-491D-8474-B922996AA738}" ParallelWalk="True">
+																<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 																<Properties>
-																	<Property Name="NativeClrObject.Name">
+																	<Property Name="WinFormsControlName">
 																		<Value PropertyType="0" Value="dateTimePicker1" Type="5" />
 																	</Property>
 																</Properties>
 															</Child>
-															<Child Name="radioButton2" Key="{383AB1D3-1A45-4CDC-8F40-E3C5CF71BE18}" ParallelWalk="True">
-																<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+														</Children>
+													</Child>
+													<Child Name="three" Key="{26F3C0E8-8882-40D5-942A-9B7A23B9FB78}" ParallelWalk="True">
+														<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value PropertyType="0" Value="tabPage3" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="customize" Key="{4DCA912D-01C0-468A-9367-CD6E859BA9BB}" ParallelWalk="True">
+																<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 																<Properties>
-																	<Property Name="NativeClrObject.Name">
+																	<Property Name="WinFormsControlName">
 																		<Value PropertyType="0" Value="radioButton2" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="default" Key="{13185070-334A-4521-83E8-F15E1E949F4A}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value PropertyType="0" Value="radioButton1" Type="5" />
 																	</Property>
 																</Properties>
 															</Child>
@@ -81,25 +105,25 @@
 											</Child>
 										</Children>
 									</Child>
-									<Child Name="panel1" Key="{D9F0B202-F60D-4224-AAA3-4039A289E39C}" ParallelWalk="True">
+									<Child Name="buttons" Key="{9DB6B638-6735-4042-9F1E-5C904DE044E1}" ParallelWalk="True">
 										<Properties>
-											<Property Name="NativeClrObject.Name">
+											<Property Name="WinFormsControlName">
 												<Value PropertyType="0" Value="panel1" Type="5" />
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="NextButton" Key="{13E159D4-AE9A-41D1-8B91-A8B316C4DB36}" ParallelWalk="True">
-												<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+											<Child Name="next" Key="{8E263E21-3C8F-4253-A10B-0C44DA828A9A}" ParallelWalk="True">
+												<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 												<Properties>
-													<Property Name="NativeClrObject.Name">
+													<Property Name="WinFormsControlName">
 														<Value PropertyType="0" Value="NextButton" Type="5" />
 													</Property>
 												</Properties>
 											</Child>
-											<Child Name="FinishButton" Key="{F2F290B3-0965-4D0F-A02E-0C339699045B}" ParallelWalk="True">
-												<TypeInfo Item0="{ABC0C811-B64E-4C53-96B6-AD1259952D27}" />
+											<Child Name="finish" Key="{C8C7A528-7323-46B7-B12C-79D834D7584F}" ParallelWalk="True">
+												<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 												<Properties>
-													<Property Name="NativeClrObject.Name">
+													<Property Name="WinFormsControlName">
 														<Value PropertyType="0" Value="FinishButton" Type="5" />
 													</Property>
 												</Properties>
@@ -108,15 +132,15 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="wndDropDown" Key="{76A7DB8C-654D-4B91-9DED-425FD69EB6B1}" ParallelWalk="True">
+							<Child Name="wndDropDown" Key="{0DA8A17C-BAD7-49DD-A591-0AE2257102E8}" ParallelWalk="True">
 								<Properties>
 									<Property Name="WndClass">
 										<Value PropertyType="0" Value="DropDown" Type="5" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="SysMonthCal32" Key="{3AFD450E-C5ED-4083-BEFE-C38F3E788FE1}" ParallelWalk="True">
-										<TypeInfo Item0="{A6BE4E94-EE4D-4A0B-AB06-FEDCB589D7E3}" />
+									<Child Name="SysMonthCal32" Key="{EAB05E1A-B6ED-43DB-B067-FFF503A295FB}" ParallelWalk="True">
+										<TypeInfo Item0="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value PropertyType="0" Value="SysMonthCal32" Type="5" />
@@ -132,17 +156,28 @@
 		</Children>
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
-		<Child Name="Wizard" Owner="{685ABC15-8398-47C6-ABE9-55317F88F25B}">
-			<Child Name="NavigationPanel" Owner="{D9F0B202-F60D-4224-AAA3-4039A289E39C}">
-				<Child Name="NextButton" Owner="{13E159D4-AE9A-41D1-8B91-A8B316C4DB36}" />
-				<Child Name="FinishButton" Owner="{F2F290B3-0965-4D0F-A02E-0C339699045B}" />
+		<Child Name="wizard" Owner="{5371AE4F-E1E3-4416-BAD1-60FC061FAC80}">
+			<Child Name="buttons" Owner="{9DB6B638-6735-4042-9F1E-5C904DE044E1}">
+				<Child Name="next" Owner="{8E263E21-3C8F-4253-A10B-0C44DA828A9A}" />
+				<Child Name="finish" Owner="{C8C7A528-7323-46B7-B12C-79D834D7584F}" />
 			</Child>
-			<Child Name="CurrentPage" Owner="{76FC953A-DEAA-4A1A-A90C-5CB6AF3356C2}">
-				<Child Name="Calendar" Owner="{53D25849-4965-485E-BF02-87465B15DB8F}" />
-				<Child Name="CustomizeSettings" Owner="{383AB1D3-1A45-4CDC-8F40-E3C5CF71BE18}" />
-				<Child Name="DateTimePicker" Owner="{297CFD15-4BAF-42F4-AF9B-B8D8A5B93704}" />
+			<Child Name="pages" Owner="{7DB2AC6F-68D0-45F1-96BF-282E62934439}">
+				<Child Name="one" Owner="{D36337A3-1EB9-48C3-B908-E89E09043241}">
+					<Child Name="calendar" Owner="{5050B0A9-9272-4995-ACB7-CC0483EA2668}" />
+				</Child>
+				<Child Name="two" Owner="{E6CE2EC2-69C8-4A7E-AD4F-91408377DF90}">
+					<Child Name="datepicker" Owner="{FF7FEA95-A0DB-491D-8474-B922996AA738}" />
+				</Child>
+				<Child Name="three" Owner="{26F3C0E8-8882-40D5-942A-9B7A23B9FB78}">
+					<Child Name="customize" Owner="{4DCA912D-01C0-468A-9367-CD6E859BA9BB}" />
+					<Child Name="default" Owner="{13185070-334A-4521-83E8-F15E1E949F4A}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>
-	<TypeInfo StoreCodeCompletion="0" />
+	<TypeInfo StoreCodeCompletion="0">
+		<Child Hash="0" Key="{D4D68A85-F203-4A19-BD73-1DE3A0B78591}">
+			<Data Properties="4F1E4D81AC54C04E9299F734BA38F2E6UFFFFFFFFFFFFFFFFV4ZZZL" />
+		</Child>
+	</TypeInfo>
 </Root>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{FBEF8BD3-B1E0-4599-AEF1-7AAB22347F51}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="gettingstarted">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="GettingStarted\GettingStarted.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{7A3209BF-A42A-46EE-9779-48581BEBAC39}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="keywordoperationsproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="KeywordOperations\KeywordOperationsProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{46961E6F-97BC-49D4-B8F0-A6CB8A6C0E89}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="namemappingproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NameMappingProject\NameMappingProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{CD7E9678-E384-45B6-88D9-62A85902D18B}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="storesandcheckpointsproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="StoresAndCheckpointsProject\StoresAndCheckpointsProject.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{C4B81380-577C-4639-A0F8-1F5012577EA8}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="usesnamemapping">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="UsesNameMapping\UsesNameMapping.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{22DAC217-F359-4A49-AE9F-C8D9D080F810}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="security projects">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{7a3209bf-a42a-46ee-9779-48581bebac39}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Security Projects"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			<Prp name="name" type="S" value=""/>
+		</Node>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{3CBA1CF7-BE5F-407F-A0A6-11DD7618B424}"/>
+			<Prp name="settingsversion" type="S" value="11.31"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item idx=0000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{7A3209BF-A42A-46EE-9779-48581BEBAC39}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{CD7E9678-E384-45B6-88D9-62A85902D18B}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0002">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{46961E6F-97BC-49D4-B8F0-A6CB8A6C0E89}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0003">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{22DAC217-F359-4A49-AE9F-C8D9D080F810}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0004">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{C4B81380-577C-4639-A0F8-1F5012577EA8}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{7F4F08C3-DE19-4246-AC5F-F1877A3D0BFB}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{40125AC5-A205-49F4-9940-3F559A61BF22}"/>
+		</Node>
+		<Prp name="key" type="S" value="{FB5D222C-E4F6-44BD-9D1C-B2D1096A9E68}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
